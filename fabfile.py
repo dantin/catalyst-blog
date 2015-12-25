@@ -33,7 +33,7 @@ env.settings = {
         'password': '',
         'path': '/Users/david/Documents/www/%s' % env.name,
         'activate': '/home/sem/venv/airflow/',
-        'src': '/aztechx/sem/semcode/%s' % env.name
+        'src': '/Users/david/Documents/code/cosmos/%s' % env.name
     }
 }
 
@@ -46,7 +46,40 @@ def tier(tier='local'):
     """
     env.update(env.settings[tier])
 
-def build():
+def fetch():
+    """
+    Git fetch
+    """
+    with(cd(env.src)):
+        local("git fetch")
+
+
+def update():
+    """
+    Git update src files
+    """
+    with(cd(env.src)):
+        local('git pull')
+
+
+def checkout(branch=None):
+    """
+    Git checkout to branch
+    :param branch: target branch
+    """
+    """
+    :param branch:
+    :return:
+    """
+    if not branch:
+        branch = env.branch
+    with(cd(env.src)):
+        local('git checkout %s' % branch)
+
+def build(branch='master'):
+    fetch()
+    checkout(branch)
+    update()
     local('hexo generate')
     local('tar -cf %s.tar.gz -C public .' % env.name)
 
