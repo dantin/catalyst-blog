@@ -1,7 +1,7 @@
 title: Scrapyd备忘录
 date: 2016-01-08 10:33:37
 categories: 学习
-tags: Scrapyd
+tags: Scrapyd Python
 toc: true
 ---
 
@@ -205,3 +205,5 @@ curl http://10.3.1.241:6800/listversions.json\?project\=composer
 # 版本回退
 curl http://10.3.1.241:6800/delversion.json -d project=composer -d version=1452134448
 ```
+
+__[Scrapyd官方文档](http://scrapyd.readthedocs.org/en/latest/index.html)__
