@@ -249,3 +249,4 @@ Mybatis的配置文件Configuration.xml
 
 __[自定义的读写分离](http://www.cnblogs.com/xiaochangwei/p/4961807.html)__
 __[多数据源的读写分离](http://www.bridgeli.cn/archives/166)__
+__[多数据源的配置和使用](http://kingxss.iteye.com/blog/1620314)__
