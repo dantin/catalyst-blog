@@ -1,7 +1,7 @@
 title: Python包管理工具setuptools
 date: 2016-01-15 11:09:40
 tags: 学习
-tags: Python Setuptools
+tags: [Python, Setuptools]
 toc: true
 ---
 

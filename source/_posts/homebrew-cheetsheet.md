@@ -1,7 +1,7 @@
 title: Homebrew Cheetsheet
 date: 2016-01-19 10:33:58
 categories: 经验分享
-tags: Homebrew Cheetsheet
+tags: [Homebrew, Cheetsheet]
 toc: true
 ---
 
