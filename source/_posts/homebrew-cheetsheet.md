@@ -144,3 +144,8 @@ xcodebuild -license
 vim ~/.bash_profile
 export PATH=/usr/local/bin:PATH      # Add This
 ```
+
+参考
+
+* [Homebrew Requirements](https://github.com/mxcl/homebrew/wiki/Installation)
+* [Homebrew Document](https://github.com/Homebrew/homebrew)
