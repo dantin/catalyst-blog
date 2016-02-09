@@ -76,15 +76,21 @@ def checkout(branch=None):
     with(cd(env.src)):
         local('git checkout %s' % branch)
 
+
 def build(branch='master'):
     fetch()
     checkout(branch)
     update()
+
+
+def publish():
     local('hexo generate')
     local('tar -cf %s.tar.gz -C public .' % env.name)
 
+
 def deploy():
     local('tar zxf %s.tar.gz -C %s' % (env.name, env.path))
+
 
 def clean():
     local('rm -rf public/*')
