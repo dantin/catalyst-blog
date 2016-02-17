@@ -89,3 +89,87 @@ Lucene的Boolean operator分为：
 * \-，必须不含
 
     如：`+lucene -elasticsearch`，document with lucene term, but not elasticsearch term
+
+复合操作符
+
+```bash
+elasticsearch AND (mastering OR book)
+```
+
+##### Querying fields
+
+Lucene的数据逻辑上按Field保存，如要在特定Field上查询某些内容，需使用特定语法。
+
+如：需要查询title中包含elasticsearch的文档，查询语句如下：
+
+```bash
+title:elasticsearch
+```
+
+也支持组合查询：
+
+```bash
+title:(+elasticsearch +"mastering book")
+```
+
+等价于
+
+```bash
++title:elasticsearch +title:"mastering book"
+```
+
+##### Term modifiers
+
+通配符：'\*'，匹配任意；'?'，匹配单个字符。
+
+模糊搜索：_~ + 数字_的形式出现。
+
+Boost：'^'
+
+范围搜索：'['和']'，如：`price:[10.00 TO 15.00]`；当然，也支持字符，如`name:[Adam TO Adria]`；以及包不包含：`price:[10.00 TO 15.00}`
+
+转义字符：'\\'
+
+#### Introducing ElasticSearch
+
+##### Basic concepts
+
+* Index
+
+    数据保存的地方，类似SQL中的数据库，保存documents
+
+* Document
+
+    JSON格式，每篇文章可能有多个Field；每个Field可能有一个或多个（multi-valued）值。
+
+* Mapping
+
+    存放自定义的索引配置，如：analyzer、filter、删除HTML标签、排序等。ES本身有自动的Mapping机制，但默认的效果不一定好，一般需要自己配置。
+
+* Type
+
+    类似SQL中的表。一种Document对应一种Type，一个Index可以包含多种Type。每个Type有自己对应的Mapping。
+
+* Node
+
+    运行ElasticSearch Instance的节点。
+
+* Cluster
+
+    多个Node组成一个ElasticSearch的Cluster。
+
+* Shard
+
+    Lucene索引的分片，这样Cluster中的多个Node就能存放几乎无限大小的Index 。注意：这个配置只在Index创建的时候生效，后期不能改变。
+
+* Replica
+
+    Shard的拷贝，这样就能并行响应更多的请求。
+
+* Gateway
+
+    ElasticSearch自身信息存放的地方。
+
+##### Key concepts behind ElasticSearch architecture
+
+
