@@ -1,7 +1,11 @@
-title: master elasticsearch
-tags:
+title: Mastering ElasticSearch之一
+date: 2016-02-17 10:20:16
+categories: 读书笔记
+tags: ElasticSearch
+toc: true
 ---
 
+本文记录Mastering ElasticSearch读书笔记。
 
 ### Introduction to ElasticSearch
 
@@ -41,7 +45,7 @@ Lucene的核心是反转索引，即：_inverted index_。
 | 4             | 1     | <3>     |
 | Apache        | 1     | <3>     |
 | Cookbook      | 1     | <3>     |
-| ElasticSearch | 2     | <1> <2> |
+| ElasticSearch | 2     | <1>,<2> |
 | Mastering     | 1     | <2>     |
 | Server        | 1     | <1>     |
 | Solr          | 1     | <3>     |
@@ -172,4 +176,14 @@ Boost：'^'
 
 ##### Key concepts behind ElasticSearch architecture
 
+ElasticSearch的核心概念是易用性和可扩展性，出于此考虑，ElasticSearch的特性如下：
+
+* 合理的默认值，安装后即可使用，支持自动配置和自动发现；
+* 默认以分布式模式运行，新增节点可以自动加入集群；
+* 无单点故障（_SPOF_，single point of failure），Shard的自动分布和拷贝；
+* 容量和性能可扩展；
+* 不限制索引中数据的组织形式；
+* 搜索性能接近实时（_NRT_，Near Real Teim）；
+
+##### Working of ElasticSearch
 
