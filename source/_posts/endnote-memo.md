@@ -1,7 +1,7 @@
 title: Endnote备忘录
 date: 2016-02-22 13:57:38
 categories: 学习
-tags: [Software, Endnote]
+tags: [Software, Endnote, Mac, Windows]
 toc: true
 ---
 
