@@ -108,17 +108,17 @@ Python支持传统的函数`sorted(data)`，也支持方法调用`string.lower()
 
 Python自带对象如下表
 
-| classes | 描述      | Immutable? |
-| ------- | -------- |:-----------:|
-| bool    | 布尔型    | Y |
-| int     | 整型      | Y |
-| float   | 浮点型    | Y |
-| list    | 列表      |   |
-| tuple   | 元组      | Y |
-| str     | 字符串型  | Y |
-| set     | 集合      |   |
+| classes   | 描述     | Immutable? |
+| --------- | ------- |:-----------:|
+| bool      | 布尔型   | Y |
+| int       | 整型     | Y |
+| float     | 浮点型   | Y |
+| list      | 列表     |   |
+| tuple     | 元组     | Y |
+| str       | 字符串型 | Y |
+| set       | 集合    |   |
 | frozenset | 集合    | Y |
-| dict    | 字典      |   |
+| dict      | 字典    |   |
 
 需要特别注意：
 
