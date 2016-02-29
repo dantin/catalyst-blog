@@ -7,6 +7,28 @@ toc: true
 
 本文记录Mac OS的常见工具及备忘录。
 
+### 制作启动盘
+
+在苹果商店下载好OS X Mavericks安装文件，然后准备一支16G的USB3.0 U盘。插上U盘，在终端执行：
+
+```bash
+sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstallmedia --volume /Volumes/untitled --applicationpath /Applications/Install\ OS\ X\ Mavericks.app --nointeraction
+```
+
+untitled 是你的u盘盘符，根据实际情况来。
+
+```bash
+Erasing Disk: 0%… 10%… 20%… 30%…100%…
+>Copying installer files to disk…
+Copy complete.
+Making disk bootable…
+Copying boot files…
+>Copy complete.
+>Done.
+```
+
+看到上面的信息说明启动盘制作成功。
+
 ### 隐藏文件开关
 
 显示隐藏文件。
