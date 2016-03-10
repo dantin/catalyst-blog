@@ -42,3 +42,17 @@ defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 ```bash
 defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finde
 ```
+
+### 远程登录
+
+开启远程登录。
+
+```bash
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
+```
+
+关闭远程登录
+
+```bash
+sudo launchctl unload -w /System/Library/LaunchDaemons/ssh.plist
+```
