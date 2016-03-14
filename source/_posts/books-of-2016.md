@@ -17,7 +17,7 @@ toc: true
 
 留德十年，季羡林
 牛棚杂记，季羡林
-独自上场，李娜，中信出版社
+独自上场：李娜自传，李娜，中信出版社
 第二十二条军规，约瑟夫·海勒
 
 ### 3月
@@ -27,3 +27,6 @@ MapReduce: Simplified Data Processing on Large Clusters，Jeffrey Dean and Sanja
 教父，马里奥·普佐
 Spring in Action，Craig Walls
 Hadoop in Action，Chuck Lam
+
+### 4月
+一九八四，乔治·奥威尔
