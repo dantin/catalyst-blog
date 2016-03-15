@@ -29,17 +29,22 @@ toc: true
     <description>Hadoop的示例程序</description>
 
     <dependencies>
-        <!-- 开发一个普通的Hadoop项目,需要hadoop-common和hadoop-core依赖 -->
+        <!-- 开发一个普通的Hadoop项目,需要hadoop-common依赖 -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
             <version>2.7.2</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-core</artifactId>
-            <version>1.2.1</version>
-        </dependency>
+        <!-- hadoop-2 does not have hadoop-core project anymore. -->
+        <!-- replace hadoop-core with hadoop-common or put hadoop-core to hadoop-1 profile -->
+        <!-- https://github.com/cloudera/hue/issues/104 -->
+        <!--
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-core</artifactId>
+                <version>1.2.1</version>
+            </dependency>
+        -->
         <!-- 如果需要读取HDFS上的文件内容,需要hadoop-hdfs和hadoop-client依赖 -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
@@ -60,7 +65,7 @@ toc: true
 
 这里使用的Hadoop测试集群版本是2.7.2，具体的`pom.xml`配置需要根据集群的具体发行版本修改。如果版本不一致将会出现hadoop集群无法正常运行MapReduce程序的情况。
 
-开发一个普通的Hadoop项目，一般需要`hadoop-common`、`hadoop-core`两组依赖；如果需要读取HDFS上的文件内容，则需要`hadoop-hdfs`和`hadoop-client`另外两组依赖；如果需要读取HBase的数据，则需要再加入`hbase-client`。
+开发一个普通的Hadoop项目，一般需要`hadoop-common`依赖；如果需要读取HDFS上的文件内容，则需要`hadoop-hdfs`和`hadoop-client`另外两组依赖；如果需要读取HBase的数据，则需要再加入`hbase-client`。
 
 ### WordCount代码
 
