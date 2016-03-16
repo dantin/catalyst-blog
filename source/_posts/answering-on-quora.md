@@ -2,7 +2,6 @@ title: 有谁真正因在Quora回答问题而受益？
 date: 2016-03-01 13:40:59
 categories: 网摘
 tags: 程序员
-toc: true
 ---
 
 是的，我从中受益匪浅。
