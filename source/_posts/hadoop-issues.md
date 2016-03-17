@@ -46,5 +46,3 @@ block上报比例1达到了阀值0.9990。
     ```bash
     hadoop dfsadmin -safemode leave
     ```
-
-参考：[Hadoopor BBS](http://bbs.hadoopor.com/viewthread.php?tid=61&extra=page%3D1)
