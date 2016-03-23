@@ -25,8 +25,11 @@ toc: true
 [菊与刀](https://book.douban.com/subject/1022238/)，鲁思·本尼迪克特
 [MapReduce: Simplified Data Processing on Large Clusters](http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)，Jeffrey Dean and Sanjay Ghemawat
 [教父](https://book.douban.com/subject/25762009/)，马里奥·普佐
-Spring in Action，Craig Walls
-Hadoop in Action，Chuck Lam
+[一九八四](http://book.douban.com/subject/1858576/)，乔治·奥威尔
+[村上村树·猫](http://book.douban.com/subject/24838896/)，铃村和成
+
 
 ### 四月
-一九八四，乔治·奥威尔
+
+Spring in Action，Craig Walls
+Hadoop in Action，Chuck Lam
