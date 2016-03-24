@@ -28,8 +28,9 @@ toc: true
 [一九八四](http://book.douban.com/subject/1858576/)，乔治·奥威尔
 [村上村树·猫](http://book.douban.com/subject/24838896/)，铃村和成
 
-
 ### 四月
 
+Java并发编程的艺术，
+Getting Started with Google Guava, Bill Bejeck
 Spring in Action，Craig Walls
 Hadoop in Action，Chuck Lam
