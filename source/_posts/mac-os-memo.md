@@ -1,6 +1,6 @@
 title: Mac OS备忘录
 date: 2016-02-22 13:49:42
-categories: 学习
+categories: 效率
 tags: [Mac, OS]
 toc: true
 ---

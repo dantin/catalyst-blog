@@ -1,6 +1,6 @@
 title: 长大以后，你悟出过哪些不一样的道理？
 date: 2016-03-04 13:35:30
-categories: 网摘
+categories: 生活
 tags: 生活
 toc: true
 ---

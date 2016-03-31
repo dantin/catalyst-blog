@@ -1,6 +1,6 @@
 title: Python Primer
 date: 2016-02-06 23:10:37
-categories: 读书笔记
+categories: 工程
 tags: Python
 toc: true
 ---

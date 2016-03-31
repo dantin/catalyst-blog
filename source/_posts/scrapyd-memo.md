@@ -1,6 +1,6 @@
 title: Scrapyd备忘录
 date: 2016-01-08 10:33:37
-categories: 学习
+categories: 工程
 tags: [Scrapyd, Python]
 toc: true
 ---

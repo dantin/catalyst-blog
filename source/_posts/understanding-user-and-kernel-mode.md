@@ -1,6 +1,6 @@
 title: 用户态和内核态
 date: 2016-03-16 14:44:49
-categories: 学习
+categories: 学术
 tags: [OS]
 toc: true
 ---

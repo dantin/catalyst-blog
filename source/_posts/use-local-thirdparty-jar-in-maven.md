@@ -1,6 +1,6 @@
 title: 在Maven中使用本地第三方Jar包
 date: 2016-03-24 17:11:17
-categories: 学习
+categories: 工程
 tags: [Maven]
 toc: true
 ---

@@ -1,6 +1,6 @@
 title: Mastering ElasticSearch之一
 date: 2016-02-17 10:20:16
-categories: 读书笔记
+categories: 工程
 tags: ElasticSearch
 toc: true
 ---

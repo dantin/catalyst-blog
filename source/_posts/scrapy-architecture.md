@@ -1,6 +1,6 @@
 title: Scrapy架构
 date: 2016-01-19 11:26:37
-categories: 学习
+categories: 工程
 tags: [Scrapy, Python]
 toc: true
 ---

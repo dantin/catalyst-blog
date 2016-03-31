@@ -1,6 +1,6 @@
 title: 选书的基本原则
 date: 2016-02-18 15:26:03
-categories: 网摘
+categories: 生活
 tags: Howto
 toc: true
 ---

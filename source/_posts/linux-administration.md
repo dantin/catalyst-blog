@@ -1,6 +1,6 @@
 title: Linux管理
 date: 2014-10-31 09:47:46
-categories: 学习
+categories: 工程
 tags: Linux
 toc: true
 ---

@@ -1,6 +1,6 @@
 title: 2016年书单
 date: 2016-03-07 15:26:42
-categories: 学习
+categories: 生活
 tags: [书单]
 toc: true
 ---

@@ -1,6 +1,6 @@
 title: 安装Hadoop
 date: 2016-03-10 15:58:42
-categories: 运维
+categories: 工程
 tags: Hadoop
 toc: true
 ---

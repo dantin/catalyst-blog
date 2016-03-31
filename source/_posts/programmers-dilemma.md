@@ -1,6 +1,6 @@
 title: 程序员困境
 date: 2015-12-25 10:02:46
-categories: 网摘
+categories: 生活
 tags: 程序员
 toc: true
 ---

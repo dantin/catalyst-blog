@@ -1,6 +1,6 @@
 title: Linux备忘录
 date: 2014-10-29 07:26:53
-categories: 学习
+categories: 工程
 tags: Linux
 toc: true
 ---

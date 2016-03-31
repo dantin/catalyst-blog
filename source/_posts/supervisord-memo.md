@@ -1,6 +1,6 @@
 title: Supervisord 备忘录
 date: 2016-02-02 13:22:29
-categories: 学习
+categories: 工程
 tags: [Supervisord, Python]
 toc: true
 ---

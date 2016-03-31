@@ -1,6 +1,6 @@
 title: 安装MySQL
 date: 2016-03-31 10:23:03
-categories: 运维
+categories: 工程
 tags: MySQL
 toc: true
 ---

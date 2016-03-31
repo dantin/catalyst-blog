@@ -1,6 +1,6 @@
 title: 程序实现MySQL数据库读写分离
 date: 2016-01-13 16:58:36
-categories: 经验分享
+categories: 工程
 tags: [Spring, Mybatis]
 toc: true
 ---

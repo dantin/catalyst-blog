@@ -1,6 +1,6 @@
 title: 简单的访问频次限制实现
 date: 2015-12-29 15:08:30
-categories: 经验分享
+categories: 工程
 tags: Python
 ---
 

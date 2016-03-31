@@ -1,6 +1,6 @@
 title: Java中的序列化
 date: 2016-03-17 16:23:37
-categories: 学习
+categories: 工程
 tags: Java
 toc: true
 ---

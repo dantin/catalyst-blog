@@ -1,6 +1,6 @@
 title: Pypiserver备忘录
 date: 2016-01-21 15:24:26
-categories: 学习
+categories: 工程
 tags: [PypiServer, Python]
 toc: true
 ---

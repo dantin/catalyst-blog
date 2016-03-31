@@ -1,6 +1,6 @@
 title: 银行家算法
 date: 2016-02-05 14:18:03
-categories: 学习
+categories: 学术
 tags: Algorithm
 toc: true
 ---
