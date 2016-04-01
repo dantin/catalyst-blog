@@ -10,41 +10,41 @@ toc: true
 ### Schema相关
 
 ```sql
-<!-- 创建DB -->
+# 创建DB
 CREATE DATABASE <db_name>;
 
-<!-- 删除DB -->
+# 删除DB
 DROP DATABASE <db_name>;
 ```
 
 ### 用户相关
 
 ```sql
-<!-- 创建User -->
-CREATE USER '<user_name>'@'%' IDENTIFIED BY ’try1now';
+# 创建User
+CREATE USER '<user_name>'@'%' IDENTIFIED BY '<password>';
 
-<!-- 删除用户 -->
+# 删除用户
 DROP USER '<user_name>'@'%';
 
-<!-- 修改权限 -->
+# 修改权限
 GRANT SELECT,INSERT,UPDATE,DELETE ON <db_name>.* to '<user_name>'@'%' WITH GRANT OPTION;
 
-<!-- 修改密码 -->
-SET PASSWORD FOR '<user_name>'@'localhost' = PASSWORD('try1now');
+# 修改密码
+SET PASSWORD FOR '<user_name>'@'localhost' = PASSWORD('<password>');
 
-<!-- 更新权限 -->
+# 更新权限
 FLUSH PRIVILEGES;
 ```
 
 ### 查看相关
 
 ```sql
-<!-- MySQL中的所有用户 -->
+# MySQL中的所有用户
 SELECT User FROM mysql.user;
 
-<!-- 列出MySQL中的数据库 -->
+# 列出MySQL中的数据库
 show databases;
 
-<!-- 返回当前 MySQL用户名和机主名 -->
+# 返回当前 MySQL用户名和机主名
 SELECT USER();
 ```
