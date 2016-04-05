@@ -141,6 +141,7 @@ xcodebuild -license
 修改环境变量，将$PATH中的`/usr/local/bin/`移至`/usr/bin/`之前。
 
 ```bash
+# vim ~/.profile
 vim ~/.bash_profile
 export PATH=/usr/local/bin:PATH      # Add This
 ```
