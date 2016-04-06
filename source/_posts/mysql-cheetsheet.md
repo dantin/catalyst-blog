@@ -1,7 +1,7 @@
 title: MySQL Cheetsheet
 date: 2016-03-31 10:58:58
 categories: 工程
-tags: [MysQL, Cheetsheet]
+tags: [MySQL, Cheetsheet]
 toc: true
 ---
 

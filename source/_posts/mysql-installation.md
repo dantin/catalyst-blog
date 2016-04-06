@@ -44,6 +44,12 @@ Or, if you don't want/need launchctl, you can just run:
 
 ### 配置
 
+有些版本升级完成后，MySQL的配置发生改变，需要用默认值覆盖老的配置文件`/etc/my.cnf`。
+
+```bash
+sudo cp /usr/local/opt/mysql/support-files/my-default.cnf /etc/my.cnf
+```
+
 但是使用`mysql.server start`启动后，使用`mysql -uroot`提示访问被阻止。
 
 解决方案:
