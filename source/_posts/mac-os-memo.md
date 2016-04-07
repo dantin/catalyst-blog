@@ -56,3 +56,19 @@ sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
 ```bash
 sudo launchctl unload -w /System/Library/LaunchDaemons/ssh.plist
 ```
+
+### 查看依赖
+
+类似Linux中的`ldd`，查看二进制文件的动态链接库依赖。
+
+```bash
+otool -L /sbin/ping
+```
+
+修改二进制文件动态链接库依赖。
+
+```bash
+install_name_tool -change oldname newname input_file
+
+sudo install_name_tool -change /usr/local/lib/libmysqlclient.18.dylib /usr/local/lib/libmysqlclient.20.dylib /Users/david/Documents/venv/python2/lib/python2.7/site-packages/_mysql.so
+```
