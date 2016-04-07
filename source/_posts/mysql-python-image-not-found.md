@@ -57,9 +57,8 @@ otool -L /Users/david/Documents/venv/python2/lib/python2.7/site-packages/_mysql.
 至此问题解决。
 
 ```python
->>> import MySQLdb
 >>> import MySQLdb as mysql
->>> conn = mysql.connect( charset="utf8", use_unicode=True, host="localhost",user="fdd_axb", passwd="try1now",db="fdd_axb" )
+>>> conn = mysql.connect( charset="utf8", use_unicode=True, host="localhost",user="fdd_axb", passwd="try1now",db="fdd_axb")
 >>>
 ```
 
@@ -73,6 +72,42 @@ echo $PACKAGES_PATH
 install_name_tool -change libmysqlclient.18.dylib /usr/local/lib/libmysqlclient.20.dylib $PACKAGES_PATH/_mysql.so
 echo "fix MySQL-python finish"
 ```
+
+### 后记
+
+这么解决后，在使用过程中会出现进程锁死的情况。
+
+```bash
+>>> import MySQLdb as mysql
+>>> conn = mysql.connect( charset="utf8", use_unicode=True, host="localhost",user="fdd_axb", passwd="try1now",db="fdd_axb" )
+>>> cursor = conn.cursor()
+>>> cursor.execute("select version();")
+[1]    57366 terminated  python
+```
+
+原来MySQL-python目前尚未支持MySQL 5.7.11，目前的解决办法如下：
+
+安装`pymsql`包
+
+```bash
+pip install pymysql
+```
+
+使用
+
+```python
+>>> import pymysql
+>>> pymysql.install_as_MySQLdb()
+>>> conn = pymysql.connect( charset="utf8", use_unicode=True, host="localhost",user="fdd_axb", passwd="try1now",db="fdd_axb" )
+>>> cursor = conn.cursor()
+>>> cursor.execute("select version()")
+1
+>>> cursor.fetchone()
+(u'5.7.11',)
+>>> conn.close()
+```
+
 参考
 
 [Python mysqldb: Library not loaded: libmysqlclient.18.dylib](http://stackoverflow.com/questions/6383310/python-mysqldb-library-not-loaded-libmysqlclient-18-dylib/13421926#13421926)
+[Python: MySQLdb and “Library not loaded: libmysqlclient.16.dylib”](http://stackoverflow.com/questions/4559699/python-mysqldb-and-library-not-loaded-libmysqlclient-16-dylib)
