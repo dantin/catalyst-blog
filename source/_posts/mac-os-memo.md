@@ -67,8 +67,14 @@ otool -L /sbin/ping
 
 修改二进制文件动态链接库依赖。
 
+语法
+
 ```bash
 install_name_tool -change oldname newname input_file
+```
 
+例子
+
+```bash
 sudo install_name_tool -change /usr/local/lib/libmysqlclient.18.dylib /usr/local/lib/libmysqlclient.20.dylib /Users/david/Documents/venv/python2/lib/python2.7/site-packages/_mysql.so
 ```

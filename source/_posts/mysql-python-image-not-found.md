@@ -93,7 +93,7 @@ echo "fix MySQL-python finish"
 pip install pymysql
 ```
 
-使用
+使用办法：
 
 ```python
 >>> import pymysql
@@ -106,6 +106,8 @@ pip install pymysql
 (u'5.7.11',)
 >>> conn.close()
 ```
+
+至此问题彻底解决。
 
 参考
 
