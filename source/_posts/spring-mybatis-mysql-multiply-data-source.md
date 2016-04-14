@@ -183,6 +183,8 @@ public class ThreadLocalRountingDataSource extends AbstractRoutingDataSource {
 ```xml
 <context:component-scan base-package="net.aazj.service,net.aazj.aop" />
 <context:component-scan base-package="net.aazj.aop" />
+<!-- Enables the use of the @AspectJ style of Spring AOP -->
+<aop:aspectj-autoproxy/>
 <!-- 引入属性文件 -->
 <context:property-placeholder location="classpath:config/db.properties" />    
 <!-- 配置数据源Master -->
