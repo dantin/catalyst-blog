@@ -9,6 +9,10 @@ toc: true
 
 项目中通常使用Spring加Mybatis实现MySQL的主从读写分离，记录如下，供以后参考。
 
+_注意：这种配置是不支持分布式事务的，也就是同一个事务中，不能操作多个数据库。_
+
+高级用法参考[Spring MyBatis多数据源的配置和管理](/2016/04/14/spring-mybatis-mysql-multiply-data-source/)。
+
 ### 配置
 
 #### 数据源
