@@ -39,7 +39,7 @@ Key ＝ target - nums[i]
 Value = i
 ```
 
-* 若num命中，则结果为：`[i, cache[num]]`
+* 若num命中，则结果为：`(i, cache[num])`
 * 不命中，则缓存当前数据，`cache[num] = i`
 
 特殊情况：`i == cache[num]`
