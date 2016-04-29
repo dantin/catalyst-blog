@@ -189,7 +189,7 @@ sshd 2349 root 4u IPv6 6286 TCP *:ssh (LISTEN)
 
 命令：`lsof -i:<port number>`
 
-``` bash
+```bash
 lsof -i:21
 COMMAND PID USER FD TYPE DEVICE SIZE NODE NAME
 pure-ftpd 2651 root 4u IPv4 7047 TCP *:ftp (LISTEN)
@@ -204,8 +204,16 @@ pure-ftpd 2651 root 5u IPv6 7048 TCP *:ftp (LISTEN)
 
 拷贝一个目录
 
-``` bash
+```bash
 cp -r <source directory> <destination directory>
+```
+
+#### 文件
+
+远程拷贝一个文件
+
+```bash
+scp -P <port> <user>@<host>:<remote directory> <local directory>
 ```
 
 #### 常用文件类型
