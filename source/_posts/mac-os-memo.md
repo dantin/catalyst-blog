@@ -78,3 +78,14 @@ install_name_tool -change oldname newname input_file
 ```bash
 sudo install_name_tool -change /usr/local/lib/libmysqlclient.18.dylib /usr/local/lib/libmysqlclient.20.dylib /Users/david/Documents/venv/python2/lib/python2.7/site-packages/_mysql.so
 ```
+
+### 开发相关
+
+#### 查看JDK安装
+
+JDK安装路径
+
+```bash
+/usr/libexec/java_home -v 1.8
+```
+
