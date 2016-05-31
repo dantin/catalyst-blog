@@ -48,3 +48,13 @@ show databases;
 # 返回当前 MySQL用户名和机主名
 SELECT USER();
 ```
+
+### 数据导入
+
+```sql
+# 倒入file.csv到某张表
+load data local infile '/directory/file.csv'
+into table fdd_esf_push.temp_device_info
+fields terminated by ','  enclosed by '"'
+lines terminated by '\r\n';
+```
