@@ -1,4 +1,4 @@
-title: 深入理解Java虚拟机之一虚拟机内存划分
+title: 深入理解Java虚拟机之一：虚拟机内存划分
 date: 2016-06-01 23:29:36
 categories: 学术
 tags: [Java, JVM]
@@ -90,7 +90,9 @@ __Method Area__
 方法区（Method Area）与Java堆一样，是各个线程共享的内存区域，用于存储被虚拟机加载的类信息、常量、静态变量、即时编译器编译后的代码等数据。
 它有个别名叫做非堆Non-Heap。
 
-对于HotSpot开发者来说，很多人称它为“永久代”（Permanent Generation），但是两者并不等价，仅仅是因为HotSpot虚拟机设计团队把GC分代收集扩展至方法区，或者说使用永久代来实现方法区而已，这样HotSpot的垃圾收集器可以向管理堆一样管理这部分内存。但是因为永久代有“-XX：MaxPermSize的上限，使其更容易内存溢出。因此在JDK1.7的HotSpot中，已经把原本放在永久代的字符串常量池移出去了。
+对于HotSpot开发者来说，很多人称它为“永久代”（Permanent Generation），但是两者并不等价，仅仅是因为HotSpot虚拟机设计团队把GC分代收集扩展至方法区，或者说使用永久代来实现方法区而已，这样HotSpot的垃圾收集器可以向管理堆一样管理这部分内存。但是因为永久代有`-XX：MaxPermSize`的上限，使其更容易内存溢出。因此在JDK1.7的HotSpot中，已经把原本放在永久代的字符串常量池移出去了。
+
+![方法区内存结构](/images/jvm-method-area.jpg "JVM method area")
 
 当方法区无法满足内存分配需求的时候，会抛出OutOfMemoryError异常。
 

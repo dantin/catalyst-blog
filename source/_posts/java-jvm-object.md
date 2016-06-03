@@ -1,4 +1,4 @@
-title: 深入理解Java虚拟机之二对象的创建、内存布局及访问方式
+title: 深入理解Java虚拟机之二：对象的创建、内存布局及访问方式
 date: 2016-06-02 22:24:30
 categories: 学术
 tags: [Java, JVM]
