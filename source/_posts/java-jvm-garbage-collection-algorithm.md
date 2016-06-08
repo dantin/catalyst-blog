@@ -1,4 +1,4 @@
-title: 深入理解java虚拟机之四：垃圾收集算法及HotSpot实现
+title: 深入理解Java虚拟机之四：垃圾收集算法及HotSpot实现
 date: 2016-06-07 09:57:08
 categories: 学术
 tags: [Java, JVM]
