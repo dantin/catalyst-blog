@@ -1128,3 +1128,5 @@ public class SpringTransitionTest {
     }
 }
 ```
+
+参考：[CSDN](http://blog.csdn.net/trigl/article/details/50968079)

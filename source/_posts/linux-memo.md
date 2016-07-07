@@ -185,6 +185,16 @@ sshd 2349 root 4u IPv6 6286 TCP *:ssh (LISTEN)
 * 第一段是进程名称
 * 最后一列是侦听的协议、侦听的IP与端口号、状态。如果端口号是已知的常用服务（如80、21等），则会直接显示协议名称，如http、ftp、ssh等。
 
+命令：`netstat`
+
+```bash
+netstat -lntp  //查看开启了哪些端口
+netstat -r      //本选项可以显示关于路由表的信息
+netstat -a     //本选项显示一个所有的有效连接信息列表
+netstat -na|grep -i listen //可以看到目前系统侦听的端口号
+netstat -antup    //查看已建立的连接进程，所占用的端口。
+```
+
 ##### 查看某一端口的占用情况
 
 命令：`lsof -i:<port number>`

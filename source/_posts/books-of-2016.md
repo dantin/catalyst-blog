@@ -35,6 +35,12 @@ toc: true
 
 ### 五月
 
+### 六月
+[深入理解Java虚拟机（第2版）](https://book.douban.com/subject/24722612/)，周志明，机械工业出版社
+
+### 七月
+
+Java并发编程实战，
 Java并发编程的艺术，
 Getting Started with Google Guava, Bill Bejeck
 Spring in Action，Craig Walls
