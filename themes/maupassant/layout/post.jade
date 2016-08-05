@@ -1,32 +1,38 @@
 extends base
 
 block title
-  title= page.title + " | " + config.title
+  title= page.title + ' | ' + config.title
 
 block content
-  .post.post-page
+  .post
     h1.post-title= page.title
-    .post-meta= page.date.format(config.date_format) + " | "
+    .post-meta= page.date.format('ll')
       if page.categories.length > 0
-        span.categories= __('belongsto')
+        span= ' | '
+        span.category
           for category in page.categories.toArray()
-            a(href=url_for(category.path))= " " + category.name
+            a(href=url_for(category.path))= category.name
+      if theme.busuanzi == true
+        script(src='https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js', async)
+        span#busuanzi_container_page_pv= ' | '
+          span#busuanzi_value_page_pv
+          span= ' ' + __('Hits')
     if theme.duoshuo
-      span.ds-thread-count(data-thread-key=page.path)
+      a.ds-thread-count(data-thread-key=page.path, href=url_for(page.path) + '#comments')
     if theme.disqus
-      span.disqus-comment-count(data-disqus-identifier=page.path)
+      a.disqus-comment-count(data-disqus-identifier=page.path, href=url_for(page.path) + '#disqus_thread')
     if page.toc
-      div(class="clear")
-        div(id="toc" class="toc-article")
-          div(class="toc-title")= __('contents')
+      div(class='clear')
+        div(id='toc' class='toc-article')
+          div(class='toc-title')= __('contents')
           != toc(page.content)
     .post-content
       != page.content
-    if page.tags
-      .tags
-        for tag in page.tags.toArray()
-          a(href=url_for(tag.path))= tag.name
-    include _partial/post-nav
+    if theme.shareto == true
+      script(type='text/javascript', src=url_for(theme.js) + '/share.js' + '?v=' + theme.version, async)
+      a.article-share-link(data-url='#{page.permalink}', data-id='#{page._id}')= __('shareto')
+    include _partial/tag
+    include _partial/post_nav
     if theme.duoshuo
       div(class='ds-share flat' data-thread-key=page.path, data-title=page.title, data-url=page.permalink)
          .ds-share-inline
@@ -42,5 +48,4 @@ block content
               li
                 a(class='ds-wechat' href='javascript:void(0);' data-service='wechat') 微信
             .ds-share-icons-more
-
     include _partial/comments

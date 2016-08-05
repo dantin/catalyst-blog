@@ -1,78 +1,38 @@
-title: Hello World
-date: 2014-10-17 15:08:58
-categories: 工程
-tags: Hexo
-toc: true
 ---
-[Hexo](http://hexo.io/)是一个简单、轻量的静态博客框架，基于Nodejs。
+title: Hello World
+---
+Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-Hexo的[文档](http://hexo.io/docs/)丰富，社区完善。由于作者是台湾人，所以一些[中文问题](http://hexo.io/docs/troubleshooting.html)的定位和解决方便许多。:D
+## Quick Start
 
-## 安装
-
-首先确保Nodejs和Git都安装好。
-
-``` bash
-npm install -g hexo
-```
-
-### 创建工程目录
+### Create a new post
 
 ``` bash
-hexo init <folder>
-cd <folder>
-hexo init
+$ hexo new "My New Post"
 ```
 
-## 使用入门
+More info: [Writing](https://hexo.io/docs/writing.html)
 
-### 新建文章
+### Run server
 
 ``` bash
-hexo new "My New Post"
+$ hexo server
 ```
 
-More info: [Writing](http://hexo.io/docs/writing.html)
+More info: [Server](https://hexo.io/docs/server.html)
 
-### 启动服务器
+### Generate static files
 
 ``` bash
-hexo server
+$ hexo generate
 ```
 
-More info: [Server](http://hexo.io/docs/server.html)
+More info: [Generating](https://hexo.io/docs/generating.html)
 
-### 生成静态文件
+### Deploy to remote sites
 
 ``` bash
-hexo generate
+$ hexo deploy
 ```
 
-More info: [Generating](http://hexo.io/docs/generating.html)
-
-### 部署
-
-``` bash
-hexo deploy
-```
-
-More info: [Deployment](http://hexo.io/docs/deployment.html)
-
-## 主题安装
-
-安装主题和渲染器：
-
-``` bash
-git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant
-npm install hexo-renderer-sass --save
-npm install hexo-renderer-jade --save
-```
-
-编辑Hexo目录下的 _config.yml，将theme的值改为maupassant。
-
-主题的配置文件在```themes/maupassant/_config.yml```
-
-## 参考
-
-1. [GitHub](https://github.com/hexojs/hexo/issues)
-2. [maupassant主题](https://www.haomwei.com/technology/maupassant-hexo.html)
+More info: [Deployment](https://hexo.io/docs/deployment.html)
