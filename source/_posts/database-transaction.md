@@ -218,17 +218,17 @@ MVCC（多版本并发控制）模型为解决这个问题提供了思路。数�
 快照读：简单的select操作，属于快照读，不加锁：
 
 ```sql
-select * from table where A=?;
+SELECT * FROM table WHERE A=?;
 ```
 
 当前读：特殊的读操作，插入/更新/删除操作，属于当前读，需要加锁。
 
 ```sql
-select * from table where A=? lock in share mode;
-select * from table where A=? for update;
-insert into table values (…);
-update table set A=? where B=?;
-delete from table where A=?;
+SELECT * FROM table WHERE A=? LOCK IN SHARE MODE;
+SELECT * FROM table WHERE A=? FOR UPDATE;
+INSERT INTO table VALUES (…);
+UPDATE table SET A=? WHERE B=?;
+DELETE FROM table WHERE A=?;
 ```
 
 所有以上的语句，都属于当前读，读取记录的最新版本。并且，读取之后，还需要保证其他并发事务不能修改当前记录，对读取记录加锁。其中，除了第一条语句，对读取记录加S锁 (共享锁)外，其他的操作，都加的是X锁 (排它锁)。
