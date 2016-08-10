@@ -32,84 +32,101 @@ toc: true
 例如有一个Person类，实现了Serializable接口，那么这个类就可以被序列化了。
 
 ```java
-class Person implements Serializable {   
+import java.io.Serializable;
+
+public class Person implements Serializable {
+
     private static final long serialVersionUID = 1L; //一会就说这个是做什么的
+
     String name;
     int age;
-    public Person(String name,int age){
+
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
-    }   
-    public String toString(){
-        return "name:"+name+"\tage:"+age;
     }
+    public String toString() {
+        return "name:" + name + "\tage:" + age;
+    }
+
 }
 ```
 
 通过`ObjectOutputStream`的`writeObject()`方法把这个类的对象写到一个地方（文件），再通过`ObjectInputStream` 的`readObject()`方法把这个对象读出来。
 
 ```java
-    File file = new File("file"+File.separator+"out.txt");
-    
-    FileOutputStream fos = null;
-    try {
-        fos = new FileOutputStream(file);
-        ObjectOutputStream oos = null;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
+public class Main {
+    public static void main(String[] args) {
+        File file = new File("." + File.separator + "out.txt");
+        FileOutputStream fos = null;
         try {
-            oos = new ObjectOutputStream(fos);
-            Person person = new Person("tom", 22);
-            System.out.println(person);
-            oos.writeObject(person);            //写入对象
-            oos.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }finally{
+            fos = new FileOutputStream(file);
+            ObjectOutputStream oos = null;
             try {
-                oos.close();
-            } catch (IOException e) {
-                System.out.println("oos关闭失败："+e.getMessage());
-            }
-        }
-    } catch (FileNotFoundException e) {
-        System.out.println("找不到文件："+e.getMessage());
-    } finally{
-        try {
-            fos.close();
-        } catch (IOException e) {
-            System.out.println("fos关闭失败："+e.getMessage());
-        }
-    }
-                            
-    FileInputStream fis = null;
-    try {
-        fis = new FileInputStream(file);
-        ObjectInputStream ois = null;
-        try {
-            ois = new ObjectInputStream(fis);
-            try {
-                Person person = (Person)ois.readObject();   //读出对象
+                oos = new ObjectOutputStream(fos);
+                Person person = new Person("tom", 22);
                 System.out.println(person);
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            } 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }finally{
-            try {
-                ois.close();
+                oos.writeObject(person);            //写入对象
+                oos.flush();
             } catch (IOException e) {
-                System.out.println("ois关闭失败："+e.getMessage());
+                e.printStackTrace();
+            } finally {
+                try {
+                    oos.close();
+                } catch (IOException e) {
+                    System.out.println("oos关闭失败：" + e.getMessage());
+                }
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("找不到文件：" + e.getMessage());
+        } finally {
+            try {
+                fos.close();
+            } catch (IOException e) {
+                System.out.println("fos关闭失败：" + e.getMessage());
             }
         }
-    } catch (FileNotFoundException e) {
-        System.out.println("找不到文件："+e.getMessage());
-    } finally{
+
+        FileInputStream fis = null;
         try {
-            fis.close();
-        } catch (IOException e) {
-            System.out.println("fis关闭失败："+e.getMessage());
+            fis = new FileInputStream(file);
+            ObjectInputStream ois = null;
+            try {
+                ois = new ObjectInputStream(fis);
+                try {
+                    Person person = (Person)ois.readObject();   //读出对象
+                    System.out.println(person);
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                try {
+                    ois.close();
+                } catch (IOException e) {
+                    System.out.println("ois关闭失败：" + e.getMessage());
+                }
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("找不到文件：" + e.getMessage());
+        } finally {
+            try {
+                fis.close();
+            } catch (IOException e) {
+                System.out.println("fis关闭失败：" + e.getMessage());
+            }
         }
     }
+}
 ```
 
 输出结果为：
@@ -120,6 +137,22 @@ name:tom    age:22
 ```
 
 结果完全一样。如果我把Person类中的`implements Serializable`去掉，Person类就不能序列化了。此时再运行上述程序，就会报`java.io.NotSerializableException`异常。
+
+```bash
+name:tom    age:22
+java.io.NotSerializableException: Person
+    at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+    at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+    at Main.main(Main.java:20)
+java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: Person
+    at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1355)
+    at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371)
+    at Main.main(Main.java:48)
+Caused by: java.io.NotSerializableException: Person
+    at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+    at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+    at Main.main(Main.java:20)
+```
 
 ### serialVersionUID
 
@@ -137,46 +170,64 @@ name:tom    age:22
 客户端A中的Person类：
 
 ```java
-class Person implements Serializable {   
-    
+import java.io.Serializable;
+
+public class Person implements Serializable {
+
     private static final long serialVersionUID = 1L;
-    
+
     String name;
     int age;
-    
-    public Person(String name,int age){
+
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
-    }   
-    public String toString(){
-        return "name:"+name+"\tage:"+age;
     }
+    public String toString() {
+        return "name:" + name + "\tage:" + age;
+    }
+
 }
 ```
 
 客户端B中的Person类：
 
 ```java
-class Person implements Serializable{   
-    
+import java.io.Serializable;
+
+public class Person implements Serializable {
+
     private static final long serialVersionUID = 2L;
-    
+
     String name;
     int age;
-    
-    public Person(String name,int age){
+
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
-    }   
-    public String toString(){
-        return "name:"+name+"\tage:"+age;
     }
+    public String toString() {
+        return "name:" + name + "\tage:" + age;
+    }
+
 }
 ```
 
 试图重构就会报`java.io.InvalidClassException`异常，因为这两个类的版本不一致，local class incompatible，重构就会出现错误。
 
-如果没有特殊需求的话，使用用默认的`L`就可以，这样可以确保代码一致时反序列化成功。那么随机生成的序列化ID有什么作用呢，有些时候，通过改变序列化ID可以用来限制某些用户的使用。
+```bash
+java.io.InvalidClassException: Person; local class incompatible: stream classdesc serialVersionUID = 1, local class serialVersionUID = 2
+    at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:621)
+    at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1623)
+    at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1518)
+    at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1774)
+    at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351)
+    at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371)
+    at Main.read(Main.java:45)
+    at Main.main(Main.java:18)
+```
+
+如果没有特殊需求的话，使用用默认的`1L`就可以，这样可以确保代码一致时反序列化成功。那么随机生成的序列化ID有什么作用呢，有些时候，通过改变序列化ID可以用来限制某些用户的使用。
 
 ### 静态变量序列化
 
