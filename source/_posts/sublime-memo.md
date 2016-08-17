@@ -27,3 +27,21 @@ Sublime Text 3下的C/C++代码整理工具，好像还支持java。
 在新弹出的窗口中输入AStyleFormatter，点击它便开始自动下载安装。
 
 使用时只要在代码编辑页面右击，选择AStyleFormatter->Format即可，快捷键为Ctrl+Alt+F。
+
+### 快捷键
+
+#### 跳转类
+
+```bash
+Alt+PageUp   文件首
+Alt+PageDown 文件尾
+Ctrl+G       跳到第几行
+```
+
+#### 显示类
+
+```bash
+Ctrl+Tab 按文件浏览过的顺序，切换当前窗口的标签页。
+Cmd+Alt+1 一屏显示
+Cmd+Alt+2 二屏显示
+```
