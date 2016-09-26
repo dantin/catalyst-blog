@@ -86,6 +86,7 @@ jinfo -flag CMSInitiatingOccupancyFraction
 
 ```bash
 jmap [option] vmid
+jmap -heap:format=b <process-id>
 ```
 
 * -dump 转为dump 
