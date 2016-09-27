@@ -41,6 +41,9 @@ toc: true
 
 [Java并发编程的艺术](https://book.douban.com/subject/26591326/)，方腾飞、魏鹏、程晓明，机械工业出版社 
 
+### 九月
+
+[Java虚拟机规范](https://book.douban.com/subject/25792515/)，周志明，机械工业出版社
 
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
