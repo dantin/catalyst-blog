@@ -31,15 +31,22 @@ toc: true
 ### 四月
 
 [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp)，Mark Richards，O'Reilly
+
+### 五月
+
 [Apache Maven Cookbook](https://www.packtpub.com/application-development/apache-maven-cookbook)，Raghuram Bharathan，PACKT
 
-### 五月六月
+### 六月
 
 [深入理解Java虚拟机（第2版）](https://book.douban.com/subject/24722612/)，周志明，机械工业出版社
 
-### 七月八月
+### 七月
 
 [Java并发编程的艺术](https://book.douban.com/subject/26591326/)，方腾飞、魏鹏、程晓明，机械工业出版社 
+
+### 八月
+
+[The Little Redis Book](http://openmymind.net/2012/1/23/The-Little-Redis-Book/)，Karl Seguin
 
 ### 九月
 
