@@ -30,6 +30,7 @@ toc: true
 
 ### 四月
 
+[教父2：西西里人](https://read.douban.com/ebook/3135179/)
 [Software Architecture Patterns](http://www.oreilly.com/programming/free/software-architecture-patterns.csp)，Mark Richards，O'Reilly
 
 ### 五月
@@ -51,6 +52,11 @@ toc: true
 ### 九月
 
 [Java虚拟机规范](https://book.douban.com/subject/25792515/)，周志明，机械工业出版社
+
+### 十月
+
+[教父3：最后的教父](https://read.douban.com/ebook/3135448/)，马里奥·普佐
+[Spring Boot In Action](https://www.manning.com/books/spring-boot-in-action)，Craig Walls，Manning
 
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
