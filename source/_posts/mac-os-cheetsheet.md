@@ -74,3 +74,7 @@ esc 取消
 强制退出程序 Command + Option + Escape
  
 shift+command+y 便签
+
+### Safari中开启Flash
+
+“Preferences” --> “Security” --> “Internet plug-ins”，勾选“Adobe Flash Player”后重启。
