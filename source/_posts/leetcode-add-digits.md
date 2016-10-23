@@ -25,7 +25,15 @@ Could you do it without any loop/recursion in O(1) runtime?
 
 顺序计算个数字的和，连进位代入下一轮迭代，直至个位数。
 
-P. S. O(1)的方法还未想到，但是结果Accepted。
+O(1)解法：
+
+数学归纳法
+
+```
+F(n) = n % 9  // if n % 9 != 0
+     = 9      // if n % 9 == 0 and n != 0
+     = 0      // if n == 0
+```
 
 ### 解法
 
@@ -42,6 +50,20 @@ public class Solution {
             }
         }
         return sum;
+    }
+}
+```
+
+O(1)
+
+```java
+public class Solution {
+    public int addDigits(int num) {
+        int digit = num % 9;
+        if(num % 9 == 0 && num != 0) {
+            digit += 9;
+        }
+        return digit;
     }
 }
 ```
