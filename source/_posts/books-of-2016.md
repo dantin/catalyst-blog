@@ -58,6 +58,7 @@ toc: true
 [教父3：最后的教父](https://read.douban.com/ebook/3135448/)，马里奥·普佐
 [Spring Boot In Action](https://www.manning.com/books/spring-boot-in-action)，Craig Walls，Manning
 [大型网站技术架构：核心原理与案例分析](https://book.douban.com/subject/25723064/)，李智慧，电子工业出版社
+[把时间当作朋友](https://book.douban.com/subject/3609132/)，李笑来，电子工业出版社
 
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
