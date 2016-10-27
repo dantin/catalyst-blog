@@ -9,6 +9,14 @@ toc: true
 
 ### Overview
 
+#### Virtualenv
+
+安装Python3
+
+``` bash
+virtualenv -p python3 envname
+```
+
 #### The Python Interpreter
 
 Python是一门解释型语言，它的源代码(Source Code）又称为脚本（Script），即`.py`文件，由`Python Interpreter`负责解释并执行。
