@@ -16,4 +16,7 @@ Ctrl + Alt + H，查看方法调用链
 CMD + Alt + U，查看类图
 Ctrl + H，类的继承链
 
+CMD + [+/-]，展开/收起方法
+CMD + Shift + [+/-]，全部展开/收起
+
 查看类图，右键 --> Diagrams --> Show Diagram...
