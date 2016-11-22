@@ -69,6 +69,12 @@ __备注：Debian的JDK默认安装在/usr/lib/jvm中。__
 
 JDK6之前，Sun并不提供基于OSX的JVM下载，需要从[Sun官网](http://support.apple.com/kb/DL1572?viewlocale=en_US)下载其自定义的安装包。JDK7以后的安装包，可以直接从官网下载。
 
+或者直接brew cask
+
+```bash
+brew cask install java
+```
+
 ### 配置环境变量
 
 修改系统环境变量文件`/etc/profile`，追加以下内容：
@@ -93,8 +99,6 @@ echo $PATH            //查看PATH值
 执行以下操作，查看信息是否正常：
 
 ``` bash
-brew cask install java
-
 java -version
 java version "1.7.0"
 Java(TM) SE Runtime Environment (build 1.7.0-b147)
