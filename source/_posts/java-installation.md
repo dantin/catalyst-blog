@@ -93,6 +93,8 @@ echo $PATH            //查看PATH值
 执行以下操作，查看信息是否正常：
 
 ``` bash
+brew cask install java
+
 java -version
 java version "1.7.0"
 Java(TM) SE Runtime Environment (build 1.7.0-b147)
