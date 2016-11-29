@@ -300,3 +300,11 @@ xz -z xxx.tar
 ```bash
 tar -tvzf *.tar.gz
 ```
+
+##### zip
+
+不解压文件，看文件内容
+
+```bash
+unzip -v *.zip
+```
