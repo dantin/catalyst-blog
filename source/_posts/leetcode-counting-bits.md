@@ -10,7 +10,7 @@ Leetcode 204
 
 ### 题目
 
-计算某一范围内的质数个数。
+计算某一范围内个数字二进制中1的个数。
 
 Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's in their binary representation and return them as an array.
 
