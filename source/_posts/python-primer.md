@@ -17,6 +17,20 @@ toc: true
 virtualenv -p python3 envname
 ```
 
+更新过程中碰到如下异常：
+
+```
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+```
+
+在`VENV/pip.conf`中添加：
+
+```
+[list]
+format=columns
+```
+
+
 #### The Python Interpreter
 
 Python是一门解释型语言，它的源代码(Source Code）又称为脚本（Script），即`.py`文件，由`Python Interpreter`负责解释并执行。
