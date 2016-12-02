@@ -9,7 +9,7 @@ env.name = 'catalyst'
 env.repository = 'git@github.com:dantin/catalyst-blog.git'
 # Default Git branch
 env.branch = 'master'
-env.path = '/Users/david/Documents/www/%s' % env.name
+env.path = '/var/www/%s' % env.name
 
 # Custom settings for different environments
 # path：项目部署目录
