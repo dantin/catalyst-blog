@@ -88,7 +88,10 @@ def publish():
 
 
 def deploy():
-    local('tar zxf %s.tar.gz -C %s' % (env.name, env.path))
+    if(env.tier == 'prod'):
+        run('sudo tar zxf %s/%s.tar.gz -C %s' % (env.src, env.name, env.path))
+    else:
+        local('tar zxf %s.tar.gz -C %s' % (env.name, env.path))
 
 
 def clean():
