@@ -60,6 +60,11 @@ toc: true
 [大型网站技术架构：核心原理与案例分析](https://book.douban.com/subject/25723064/)，李智慧，电子工业出版社
 [把时间当作朋友](https://book.douban.com/subject/3609132/)，李笑来，电子工业出版社
 
+### 十一月
+
+[小岛经济学](https://book.douban.com/subject/26897464/)， 彼得·希夫、安德鲁·希夫，中信出版社
+
+
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
 Spring in Action，Craig Walls
