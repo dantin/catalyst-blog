@@ -17,12 +17,12 @@ env.settings = {
     # 线上环境
     'prod': {
         'tier': 'prod',
-        'hosts': ['dding-prod:29000'],
-        'user': 'dding',
+        'hosts': ['dding-prod:29232'],
+        'user': 'david',
         'password': '',
         'path': '/var/www/%s' % env.name,
-        'activate': '/home/dding/Documents/venv/devops/bin/activate',
-        'src': '/home/dding/Documents/code/%s' % env.name
+        'activate': '/home/david/Documents/venv/devops/bin/activate',
+        'src': '/home/david/Documents/code/%s' % env.name
     },
     # 本地开发环境
     'local': {
@@ -89,9 +89,9 @@ def publish():
 
 def deploy():
     if(env.tier == 'prod'):
-        run('sudo tar zxf %s/%s.tar.gz -C %s' % (env.src, env.name, env.path))
+        run('sudo tar -zxf %s/%s.tar.gz -C %s' % (env.src, env.name, env.path))
     else:
-        local('tar zxf %s.tar.gz -C %s' % (env.name, env.path))
+        local('tar -zxf %s.tar.gz -C %s' % (env.name, env.path))
 
 
 def clean():
