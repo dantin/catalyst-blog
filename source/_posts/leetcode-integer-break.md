@@ -56,8 +56,8 @@ f(3k+2) = 2 * 3k (k ≥ 1)
 {% math %}
 \begin{aligned}
 \frac{\mathrm{d}}{\mathrm{d} x} \left( x^{n/x} \right)\\
-= \frac{\mathrm{d}}{\mathrm{d} x} \left( \mathbb{e}^{\frac{n \log{(x)}}{x}} \right)\\
-= \left( \frac{\mathrm{d}}{\mathrm{d} x} \left( \frac{n \log{(x)}}{x} \right) \right) \mathbb{e}^\frac{n \log{(x)}}{x}\\
+= \frac{\mathrm{d}}{\mathrm{d} x} \left( \mathrm{e}^{\frac{n \log{(x)}}{x}} \right)\\
+= \left( \frac{\mathrm{d}}{\mathrm{d} x} \left( \frac{n \log{(x)}}{x} \right) \right) \mathrm{e}^\frac{n \log{(x)}}{x}\\
 = x^\frac{n}{x} \frac{\mathrm{d}}{\mathrm{d} x} \left( \frac{n \log{(x)}}{x} \right)\\
 = n \frac{\mathrm{d}}{\mathrm{d} x} \left( \frac{\log{(x)}}{x} \right) x^{n/x}\\
 = \frac{x \frac{\mathrm{d}}{\mathrm{d} x}\left( \log{(x)} \right) - \log{(x)}\frac{\mathrm{d}}{\mathrm{d} x} \left( x \right)}{x^2} n x^{n/x}\\
