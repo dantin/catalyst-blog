@@ -60,6 +60,37 @@ Host文件常用于域名解析，存放在/etc/hosts
 service iptables restart
 ```
 
+#### 查看网卡
+
+```
+ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: venet0: <BROADCAST,POINTOPOINT,NOARP,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN
+    link/void
+    inet 127.0.0.1/32 scope host venet0
+    inet 144.168.60.135/32 brd 144.168.60.135 scope global venet0:0
+
+ip link show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: venet0: <BROADCAST,POINTOPOINT,NOARP,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN mode DEFAULT
+    link/void
+```
+
+#### 查看网卡状态
+
+```
+cat /proc/net/dev
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+venet0: 221917054  187467    0    0    0     0          0         0 32630222  128074    0    0    0     0       0          0
+```
+
 ### 应用相关
 
 #### 安装包
