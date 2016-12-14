@@ -32,6 +32,14 @@ Codename:   n/a
 
 ### 网络相关
 
+### 安装net-tools
+
+CentOS默认没有ifconfig，需要安装net-tools
+
+```
+sudo yum install net-tools
+```
+
 #### 修改host文件
 
 Host文件常用于域名解析，存放在/etc/hosts
@@ -96,19 +104,38 @@ venet0: 221917054  187467    0    0    0     0          0         0 32630222  12
 #### 安装包
 
 ``` bash
-apt-get install <package name>
+apt-get install packagename
+yum install packagename
 ```
 
 #### 删除包
 
-``` bash
-apt-get remove <package name>
+```
+apt-get remove packagename
+yum remove packagename
+yum erase packagename
 ```
 
 #### 安装deb文件
 
-``` bash
+```
 dpkg -i wps-office_8.1.0.3724~b1p2_i386.deb
+```
+
+#### 查看命令所在的包
+
+```
+yum provides command
+yum whatprovides command
+```
+
+#### 查看包包含的命令
+
+```
+rpm -ql packagename
+
+yum install yum-utils
+repoquery --list packagename
 ```
 
 ### 显示相关
