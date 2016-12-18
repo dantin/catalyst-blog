@@ -64,6 +64,9 @@ toc: true
 
 [小岛经济学](https://book.douban.com/subject/26897464/)， 彼得·希夫、安德鲁·希夫，中信出版社
 
+### 十二月
+
+[软技能：代码之外的生存指南](https://book.douban.com/subject/26835090/)
 
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
