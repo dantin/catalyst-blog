@@ -308,3 +308,11 @@ tar -tvzf *.tar.gz
 ```bash
 unzip -v *.zip
 ```
+
+##### rar
+
+Windows上的格式，需要安装unrar解压。
+
+```
+unrar -x *.rar
+```
