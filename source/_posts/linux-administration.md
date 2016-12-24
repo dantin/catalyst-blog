@@ -20,6 +20,17 @@ Release:    11
 Codename:   n/a
 ```
 
+#### 查看32/64位
+
+```
+uname -a
+uname -m
+arch
+sudo file /lib/systemd/systemd
+```
+
+x86-64字样的是64 bit，i686字样的是32位
+
 ### 用户权限相关
 
 #### 将用户加入sudoer组
