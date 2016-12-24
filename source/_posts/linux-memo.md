@@ -144,6 +144,20 @@ sudo killall pure-ftpd
 
 所有pure-ftpd相关进程都会被结束掉。
 
+#### 需要nohup运行的命令需要输入密码
+
+1. 前台启动命令；
+2. CTRL+Z暂停；
+3. 和当前Shell解绑定；`disown -h %jobid`
+4. 重新后台启动；`bg %jobid`
+
+```
+scp -P 28254 xxx.tar.gz username@host:/remote_directory
+# CTRL + Z
+disown -h %1
+bg %1
+```
+
 ### 文件系统
 
 #### 文件
