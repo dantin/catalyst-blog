@@ -16,7 +16,7 @@ find . -name '*.py' -print0 | xargs -0 grep 'something'
 find . -name '*.py' -exec grep 'something' {} \;
 ```
 
-### 删除目录中除某些子目录外的其他文件
+### 删除目录中除某些子目录外的内容
 
 ```
 find $DEPLOY_DIR -not \( -type f -regex '.*/static/*' -prune \) -type f -print0 | xargs -0 rm -f
