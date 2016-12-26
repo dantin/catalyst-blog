@@ -10,8 +10,20 @@ toc: true
 
 ### 搜目录下包含关键字的文件
 
-```bash
+```
 find . -name '*.py' -print0 | xargs -0 grep 'something'
 # or
 find . -name '*.py' -exec grep 'something' {} \;
+```
+
+### 删除目录中除某些子目录外的其他文件
+
+```
+find $DEPLOY_DIR -not \( -type f -regex '.*/static/*' -prune \) -type f -print0 | xargs -0 rm -f
+```
+
+### 删除空目录
+
+```
+find -x /usr/local/var/www/catalyst -type d -empty -print0 | xargs -0 rmdir
 ```
