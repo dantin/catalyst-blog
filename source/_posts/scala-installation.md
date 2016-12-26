@@ -1,3 +1,4 @@
+---
 title: 安装Scala
 date: 2016-01-27 13:19:35
 categories: 工程

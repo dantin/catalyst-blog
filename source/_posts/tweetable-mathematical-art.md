@@ -1,3 +1,4 @@
+---
 title: 可以发Tweet的数字艺术照片
 date: 2015-12-30 12:32:19
 categories: 学术

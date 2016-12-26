@@ -1,3 +1,4 @@
+---
 title: 自定义Spring XML Bean配置
 date: 2016-05-31 22:10:47
 categories: 工程

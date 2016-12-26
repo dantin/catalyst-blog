@@ -1,3 +1,4 @@
+---
 title: MySQL-python中image not found的解决办法
 date: 2016-04-06 10:38:24
 categories: 工程

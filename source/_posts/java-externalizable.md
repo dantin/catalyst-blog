@@ -1,3 +1,4 @@
+---
 title: Java中的外部序列化
 date: 2016-03-17 17:17:20
 categories: 工程

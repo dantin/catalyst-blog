@@ -1,3 +1,4 @@
+---
 title: Linux备忘录
 date: 2014-10-29 07:26:53
 categories: 工程

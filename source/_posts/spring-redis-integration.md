@@ -1,3 +1,4 @@
+---
 title: 使用Jedis整合Spring和Redis
 date: 2016-04-14 20:33:56
 categories: 工程

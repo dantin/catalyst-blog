@@ -1,3 +1,4 @@
+---
 title: Java中的逃逸分析和TLAB以及Java对象分配
 date: 2016-08-03 18:40:40
 categories: 学术

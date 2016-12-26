@@ -1,3 +1,4 @@
+---
 title: 触发Full GC的情况
 date: 2016-08-03 10:11:31
 categories: 学术

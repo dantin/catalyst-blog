@@ -1,3 +1,4 @@
+---
 title: Spring AOP实现原理与CGLIB应用
 date: 2016-08-04 15:46:28
 categories: 工程

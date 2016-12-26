@@ -1,3 +1,4 @@
+---
 title: 随机红包
 date: 2016-07-29 22:04:02
 categories: 学术

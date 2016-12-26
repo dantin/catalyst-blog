@@ -1,3 +1,4 @@
+---
 title: 安装Java JDK
 date: 2014-10-28 13:59:23
 categories: 工程

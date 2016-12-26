@@ -1,3 +1,4 @@
+---
 title: MySQL最左前索引原理与相关优化
 date: 2016-06-23 17:13:40
 categories: 工程

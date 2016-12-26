@@ -1,3 +1,4 @@
+---
 title: MySQL key_len大小的计算
 date: 2016-06-29 19:35:20
 categories: 工程

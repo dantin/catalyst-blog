@@ -1,3 +1,4 @@
+---
 title: Hadoop开发调试环境配置
 date: 2016-03-14 16:29:24
 categories: 工程

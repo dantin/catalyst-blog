@@ -1,3 +1,4 @@
+---
 title: SSH备忘录
 date: 2016-04-20 11:18:26
 categories: 效率

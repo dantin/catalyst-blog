@@ -1,3 +1,4 @@
+---
 title: Java单例模式
 date: 2016-06-09 22:43:47
 categories: 工程

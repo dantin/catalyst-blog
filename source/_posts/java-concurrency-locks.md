@@ -1,3 +1,4 @@
+---
 title: Java中的锁
 date: 2016-06-28 17:26:42
 categories: 工程

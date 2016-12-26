@@ -1,3 +1,4 @@
+---
 title: HashMap的工作原理与实现
 date: 2016-04-30 21:59:07
 categories: 学术

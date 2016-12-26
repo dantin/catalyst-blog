@@ -1,3 +1,4 @@
+---
 title: Java线程的状态及切换
 date: 2016-06-28 13:56:30
 categories: 工程

@@ -1,3 +1,4 @@
+---
 title: Hadoop使用问题记录
 date: 2016-03-16 09:48:14
 categories: 工程

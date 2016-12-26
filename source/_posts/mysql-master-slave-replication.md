@@ -1,3 +1,4 @@
+---
 title: MySQL主从复制介绍及搭建
 date: 2016-04-08 18:28:23
 categories: 工程
