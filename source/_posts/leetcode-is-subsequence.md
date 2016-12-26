@@ -1,7 +1,7 @@
 ---
 title: Is Subsequence
 date: 2016-12-13 16:47:01
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

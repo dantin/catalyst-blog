@@ -1,7 +1,7 @@
 ---
 title: Rotate Array
 date: 2016-11-29 14:24:07
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

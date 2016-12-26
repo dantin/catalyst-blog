@@ -1,7 +1,7 @@
 ---
 title: Battleships in a Board
 date: 2016-12-01 11:12:42
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

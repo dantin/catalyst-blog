@@ -1,7 +1,7 @@
 ---
 title: First Bad Version
 date: 2016-11-28 13:38:47
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

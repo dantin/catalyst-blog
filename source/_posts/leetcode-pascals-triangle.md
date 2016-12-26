@@ -1,7 +1,7 @@
 ---
 title: Pascal's Triangle
 date: 2016-11-08 09:55:45
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

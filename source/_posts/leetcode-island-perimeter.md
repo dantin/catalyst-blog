@@ -1,7 +1,7 @@
 ---
 title: Island Perimeter
 date: 2016-12-18 22:09:15
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

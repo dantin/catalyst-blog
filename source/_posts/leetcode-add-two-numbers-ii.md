@@ -1,7 +1,7 @@
 ---
 title: Add Two Numbers II
 date: 2016-12-21 22:35:09
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

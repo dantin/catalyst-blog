@@ -1,7 +1,7 @@
 ---
 title: First Unique Character in a String
 date: 2016-10-26 17:08:05
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

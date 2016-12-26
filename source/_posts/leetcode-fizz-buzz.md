@@ -1,7 +1,7 @@
 ---
 title: Fizz Buzz
 date: 2016-10-19 18:33:43
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

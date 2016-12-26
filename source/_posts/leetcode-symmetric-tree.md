@@ -1,7 +1,7 @@
 ---
 title: Symmetric Tree
 date: 2016-11-07 15:15:08
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

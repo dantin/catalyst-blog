@@ -1,7 +1,7 @@
 ---
 title: Reverse Linked List
 date: 2016-10-28 15:44:29
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

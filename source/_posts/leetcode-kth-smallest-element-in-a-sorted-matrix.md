@@ -1,7 +1,7 @@
 ---
 title: Kth Smallest Element in a Sorted Matrix
 date: 2016-12-14 15:07:58
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 mathjax: true

@@ -1,7 +1,7 @@
 ---
 title: Reverse Bits
 date: 2016-11-24 11:30:17
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

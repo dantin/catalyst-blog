@@ -1,7 +1,7 @@
 ---
 title: Queue Reconstruction by Height
 date: 2016-12-04 21:51:29
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

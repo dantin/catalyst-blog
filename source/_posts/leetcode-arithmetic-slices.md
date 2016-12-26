@@ -1,7 +1,7 @@
 ---
 title: Arithmetic Slices
 date: 2016-12-04 22:38:38
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

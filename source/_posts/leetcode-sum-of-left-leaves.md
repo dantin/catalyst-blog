@@ -1,7 +1,7 @@
 ---
 title: Sum of Left Leaves
 date: 2016-10-23 20:38:06
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

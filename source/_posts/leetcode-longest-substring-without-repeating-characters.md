@@ -1,7 +1,7 @@
 ---
 title: Longest Substring Without Repeating Characters
 date: 2016-04-22 22:49:54
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

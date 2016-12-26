@@ -1,7 +1,7 @@
 ---
 title: Range Sum Query - Immutable
 date: 2016-11-25 22:31:34
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

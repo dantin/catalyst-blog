@@ -1,7 +1,7 @@
 ---
 title: Valid Sudoku
 date: 2016-11-14 22:57:15
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

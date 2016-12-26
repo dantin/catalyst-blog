@@ -1,7 +1,7 @@
 ---
 title: Intersection of Two Arrays
 date: 2016-10-24 10:46:43
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

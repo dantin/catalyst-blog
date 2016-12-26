@@ -1,7 +1,7 @@
 ---
 title: Heaters
 date: 2016-12-20 22:39:22
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

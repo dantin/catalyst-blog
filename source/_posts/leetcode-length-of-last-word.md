@@ -1,7 +1,7 @@
 ---
 title: Length of Last Word
 date: 2016-11-21 16:41:02
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

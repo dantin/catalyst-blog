@@ -1,7 +1,7 @@
 ---
 title: Integer Break
 date: 2016-12-12 18:04:36
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 mathjax: true

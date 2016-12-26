@@ -1,7 +1,7 @@
 ---
 title: Counting Bits
 date: 2016-12-02 11:30:00
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

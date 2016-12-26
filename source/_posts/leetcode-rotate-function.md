@@ -1,7 +1,7 @@
 ---
 title: Rotate Function
 date: 2016-11-24 10:43:22
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

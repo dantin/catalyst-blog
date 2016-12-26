@@ -1,7 +1,7 @@
 ---
 title: Number of 1 Bits
 date: 2016-11-02 18:19:56
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Invert Binary Tree
 date: 2016-10-21 18:02:21
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

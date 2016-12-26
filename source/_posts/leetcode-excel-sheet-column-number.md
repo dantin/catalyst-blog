@@ -1,7 +1,7 @@
 ---
 title: Excel Sheet Column Number
 date: 2016-10-24 11:32:16
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

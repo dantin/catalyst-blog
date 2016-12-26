@@ -1,7 +1,7 @@
 ---
 title: Add Strings
 date: 2016-11-01 16:38:07
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

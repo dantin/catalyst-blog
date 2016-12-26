@@ -1,7 +1,7 @@
 ---
 title: Reconstruct Original Digits from English
 date: 2016-12-25 22:13:43
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

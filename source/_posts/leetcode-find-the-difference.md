@@ -1,7 +1,7 @@
 ---
 title: Find the Difference
 date: 2016-10-21 17:42:55
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

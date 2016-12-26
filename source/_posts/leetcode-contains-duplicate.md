@@ -1,7 +1,7 @@
 ---
 title: Contains Duplicate
 date: 2016-10-27 13:13:46
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Delete Node in a Linked List
 date: 2016-10-23 22:47:32
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

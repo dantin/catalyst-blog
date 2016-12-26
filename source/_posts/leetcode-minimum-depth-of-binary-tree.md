@@ -1,7 +1,7 @@
 ---
 title: Minimum Depth of Binary Tree
 date: 2016-11-16 17:29:50
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

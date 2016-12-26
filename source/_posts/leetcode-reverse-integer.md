@@ -1,7 +1,7 @@
 ---
 title: Reverse Integer
 date: 2016-11-28 22:02:11
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

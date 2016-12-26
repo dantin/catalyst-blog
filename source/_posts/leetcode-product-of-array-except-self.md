@@ -1,7 +1,7 @@
 ---
 title: Product of Array Except Self
 date: 2016-12-06 14:58:21
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

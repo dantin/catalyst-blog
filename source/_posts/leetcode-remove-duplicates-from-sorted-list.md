@@ -1,7 +1,7 @@
 ---
 title: Remove Duplicates from Sorted List
 date: 2016-11-02 11:29:53
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

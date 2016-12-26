@@ -1,7 +1,7 @@
 ---
 title: Binary Tree Level Order Traversal II
 date: 2016-11-04 14:00:06
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

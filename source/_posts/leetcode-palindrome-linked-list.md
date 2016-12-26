@@ -1,7 +1,7 @@
 ---
 title: Palindrome Linked List
 date: 2016-11-21 10:50:24
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

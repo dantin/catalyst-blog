@@ -1,7 +1,7 @@
 ---
 title: Maximum Depth of Binary Tree
 date: 2016-10-20 15:19:23
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

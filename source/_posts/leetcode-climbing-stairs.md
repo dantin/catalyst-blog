@@ -1,7 +1,7 @@
 ---
 title: Climbing Stairs
 date: 2016-11-02 16:37:26
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

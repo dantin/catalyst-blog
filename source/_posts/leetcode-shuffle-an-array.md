@@ -1,7 +1,7 @@
 ---
 title: Shuffle an Array
 date: 2016-12-10 23:22:35
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

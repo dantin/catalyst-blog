@@ -1,7 +1,7 @@
 ---
 title: Linked List Cycle
 date: 2016-11-07 19:00:54
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

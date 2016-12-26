@@ -1,7 +1,7 @@
 ---
 title: Balanced Binary Tree
 date: 2016-11-10 14:40:08
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

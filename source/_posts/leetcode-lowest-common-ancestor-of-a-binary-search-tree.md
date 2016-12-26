@@ -1,7 +1,7 @@
 ---
 title: Lowest Common Ancestor of a Binary Search Tree
 date: 2016-11-03 11:51:01
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

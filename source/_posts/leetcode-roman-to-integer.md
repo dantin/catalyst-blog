@@ -1,7 +1,7 @@
 ---
 title: Roman to Integer
 date: 2016-11-02 08:24:08
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

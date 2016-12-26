@@ -1,7 +1,7 @@
 ---
 title: Min Stack
 date: 2016-11-29 23:11:56
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

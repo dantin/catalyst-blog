@@ -1,7 +1,7 @@
 ---
 title: Intersection of Two Linked Lists
 date: 2016-11-23 17:44:27
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

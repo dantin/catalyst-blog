@@ -1,7 +1,7 @@
 ---
 title: Add Digits
 date: 2016-10-21 17:27:15
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

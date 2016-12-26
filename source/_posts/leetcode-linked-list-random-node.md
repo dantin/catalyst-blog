@@ -1,7 +1,7 @@
 ---
 title: Linked List Random Node
 date: 2016-12-07 23:07:36
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Two Sum II - Input array is sorted
 date: 2016-12-06 14:38:21
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Binary Watch
 date: 2016-10-28 14:51:29
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

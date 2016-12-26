@@ -1,7 +1,7 @@
 ---
 title: Majority Element
 date: 2016-10-27 11:50:56
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Minimum Number of Arrows to Burst Balloons
 date: 2016-12-23 14:40:03
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 mathjax: true

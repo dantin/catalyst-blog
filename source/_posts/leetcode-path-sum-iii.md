@@ -1,7 +1,7 @@
 ---
 title: Path Sum III
 date: 2016-11-04 10:00:17
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

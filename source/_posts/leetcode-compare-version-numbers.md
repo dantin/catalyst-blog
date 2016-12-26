@@ -1,7 +1,7 @@
 ---
 title: Compare Version Numbers
 date: 2016-11-30 22:10:00
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

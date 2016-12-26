@@ -1,7 +1,7 @@
 ---
 title: Number of Segments in a String
 date: 2016-12-18 23:12:06
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Remove Element
 date: 2016-11-07 17:36:35
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

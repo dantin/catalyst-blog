@@ -1,7 +1,7 @@
 ---
 title: Minimum Moves to Equal Array Elements
 date: 2016-11-07 13:58:54
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

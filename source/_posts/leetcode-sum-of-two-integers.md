@@ -1,7 +1,7 @@
 ---
 title: Sum of Two Integers
 date: 2016-10-20 14:12:25
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: ZigZag Conversion
 date: 2016-11-29 17:18:43
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

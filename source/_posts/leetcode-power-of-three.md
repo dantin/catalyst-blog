@@ -1,7 +1,7 @@
 ---
 title: Power of Three
 date: 2016-11-01 09:45:43
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

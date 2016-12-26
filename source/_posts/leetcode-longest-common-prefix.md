@@ -1,7 +1,7 @@
 ---
 title: Longest Common Prefix
 date: 2016-11-22 13:55:22
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

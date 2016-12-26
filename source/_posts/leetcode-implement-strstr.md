@@ -1,7 +1,7 @@
 ---
 title: Implement strStr()
 date: 2016-11-24 14:46:23
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

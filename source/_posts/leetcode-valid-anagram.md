@@ -1,7 +1,7 @@
 ---
 title: Valid Anagram
 date: 2016-10-26 18:07:18
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

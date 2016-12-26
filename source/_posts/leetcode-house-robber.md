@@ -1,7 +1,7 @@
 ---
 title: House Robber
 date: 2016-11-04 15:09:39
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Remove Linked List Elements
 date: 2016-11-21 17:08:27
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

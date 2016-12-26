@@ -1,7 +1,7 @@
 ---
 title: Binary Tree Inorder Traversal
 date: 2016-12-13 18:22:39
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

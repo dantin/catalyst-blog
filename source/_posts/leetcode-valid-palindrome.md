@@ -1,7 +1,7 @@
 ---
 title: Valid Palindrome
 date: 2016-11-28 23:07:18
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

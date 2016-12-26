@@ -1,7 +1,7 @@
 ---
 title: Reverse String
 date: 2016-10-19 18:48:51
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

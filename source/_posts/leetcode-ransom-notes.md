@@ -1,7 +1,7 @@
 ---
 title: Ransom Notes
 date: 2016-10-23 22:18:51
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

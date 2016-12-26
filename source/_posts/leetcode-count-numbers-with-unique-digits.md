@@ -1,7 +1,7 @@
 ---
 title: Count Numbers with Unique Digits
 date: 2016-12-11 22:46:09
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

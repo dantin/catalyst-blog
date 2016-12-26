@@ -1,7 +1,7 @@
 ---
 title: Happy Number
 date: 2016-11-02 10:56:21
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

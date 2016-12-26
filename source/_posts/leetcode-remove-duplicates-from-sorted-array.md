@@ -1,7 +1,7 @@
 ---
 title: Remove Duplicates from Sorted Array
 date: 2016-11-10 16:09:25
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

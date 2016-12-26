@@ -1,7 +1,7 @@
 ---
 title: Path Sum
 date: 2016-11-16 10:41:24
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

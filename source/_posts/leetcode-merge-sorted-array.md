@@ -1,7 +1,7 @@
 ---
 title: Merge Sorted Array
 date: 2016-11-20 00:05:34
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

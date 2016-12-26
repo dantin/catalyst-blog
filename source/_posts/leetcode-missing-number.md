@@ -1,7 +1,7 @@
 ---
 title: Missing Number
 date: 2016-12-13 22:39:07
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

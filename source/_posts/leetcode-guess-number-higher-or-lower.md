@@ -1,7 +1,7 @@
 ---
 title: Guess Number Higher or Lower
 date: 2016-11-14 23:41:04
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

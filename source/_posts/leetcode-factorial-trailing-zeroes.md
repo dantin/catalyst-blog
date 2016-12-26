@@ -1,7 +1,7 @@
 ---
 title: Factorial Trailing Zeroes
 date: 2016-11-10 17:03:33
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

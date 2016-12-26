@@ -1,7 +1,7 @@
 ---
 title: Longest Palindrome
 date: 2016-10-26 17:39:34
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

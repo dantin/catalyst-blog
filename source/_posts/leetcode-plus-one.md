@@ -1,7 +1,7 @@
 ---
 title: Plus One
 date: 2016-11-07 17:57:30
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Single Number II
 date: 2016-12-05 23:01:38
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Isomorphic Strings
 date: 2016-11-16 11:12:07
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

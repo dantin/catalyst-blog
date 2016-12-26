@@ -1,7 +1,7 @@
 ---
 title: Move Zeroes
 date: 2016-10-21 18:31:53
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Arranging Coins
 date: 2016-10-31 18:46:17
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

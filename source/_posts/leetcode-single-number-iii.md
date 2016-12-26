@@ -1,7 +1,7 @@
 ---
 title: Single Number III
 date: 2016-12-06 10:03:07
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

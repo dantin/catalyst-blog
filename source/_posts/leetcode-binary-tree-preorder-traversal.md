@@ -1,7 +1,7 @@
 ---
 title: Binary Tree Preorder Traversal
 date: 2016-12-15 22:42:23
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

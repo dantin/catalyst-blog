@@ -1,7 +1,7 @@
 ---
 title: Number of Boomerangs
 date: 2016-11-08 10:50:04
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Convert a Number to Hexadecimal
 date: 2016-11-01 14:40:54
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Find All Anagrams in a String
 date: 2016-11-11 17:08:45
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

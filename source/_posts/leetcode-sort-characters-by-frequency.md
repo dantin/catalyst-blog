@@ -1,7 +1,7 @@
 ---
 title: Sort Characters By Frequency
 date: 2016-12-22 17:04:16
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

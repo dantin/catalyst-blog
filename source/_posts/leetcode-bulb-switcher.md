@@ -1,7 +1,7 @@
 ---
 title: Bulb Switcher
 date: 2016-12-24 21:45:49
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Binary Tree Paths
 date: 2016-11-11 15:11:06
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

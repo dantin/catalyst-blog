@@ -1,7 +1,7 @@
 ---
 title: Top K Frequent Elements
 date: 2016-12-08 18:21:50
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

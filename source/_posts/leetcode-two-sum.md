@@ -1,7 +1,7 @@
 ---
 title: Two Sum
 date: 2016-11-24 11:45:23
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

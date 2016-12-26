@@ -1,7 +1,7 @@
 ---
 title: Same Tree
 date: 2016-10-24 19:38:57
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

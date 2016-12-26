@@ -1,7 +1,7 @@
 ---
 title: Repeated Substring Pattern
 date: 2016-11-21 16:19:27
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

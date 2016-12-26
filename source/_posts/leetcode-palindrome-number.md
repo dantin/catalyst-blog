@@ -1,7 +1,7 @@
 ---
 title: Palindrome Number
 date: 2016-11-10 17:52:17
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Valid Parentheses
 date: 2016-11-18 23:12:14
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

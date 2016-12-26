@@ -1,7 +1,7 @@
 ---
 title: Hamming Distance
 date: 2016-12-19 23:07:33
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 mathjax: true

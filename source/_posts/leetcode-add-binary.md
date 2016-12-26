@@ -1,7 +1,7 @@
 ---
 title: Add Binary
 date: 2016-11-23 18:15:40
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

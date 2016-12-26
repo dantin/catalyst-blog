@@ -1,7 +1,7 @@
 ---
 title: Assign Cookies
 date: 2016-12-18 22:49:04
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

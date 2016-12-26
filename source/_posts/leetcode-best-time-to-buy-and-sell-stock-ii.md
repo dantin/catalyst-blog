@@ -1,7 +1,7 @@
 ---
 title: Best Time to Buy and Sell Stock II
 date: 2016-12-09 22:21:21
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

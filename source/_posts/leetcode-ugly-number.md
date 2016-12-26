@@ -1,7 +1,7 @@
 ---
 title: Ugly Number
 date: 2016-11-02 18:34:20
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

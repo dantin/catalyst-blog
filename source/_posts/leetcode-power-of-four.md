@@ -1,7 +1,7 @@
 ---
 title: Power of Four
 date: 2016-11-04 14:22:20
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---

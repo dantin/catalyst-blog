@@ -1,7 +1,7 @@
 ---
 title: Word Pattern
 date: 2016-11-09 10:45:33
-categories: 学术
+categories: 练习
 tags: Leetcode
 toc: true
 ---
