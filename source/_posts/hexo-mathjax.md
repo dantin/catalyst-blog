@@ -1,7 +1,7 @@
 ---
 title: 使用hexo-math插件让Hexo支持MathJax
 date: 2016-12-13 15:02:33
-categories: 工程
+categories: 效率
 tags: Hexo
 toc: true
 ---

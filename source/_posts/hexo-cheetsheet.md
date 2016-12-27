@@ -1,7 +1,7 @@
 ---
 title: Hexo Cheetsheet
 date: 2016-01-20 09:56:45
-categories: 工程
+categories: 效率
 tags: [Hexo, Cheetsheet]
 toc: true
 ---
