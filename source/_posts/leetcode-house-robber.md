@@ -4,6 +4,7 @@ date: 2016-11-04 15:09:39
 categories: 练习
 tags: Leetcode
 toc: true
+mathjax: true
 ---
 
 Leetcode 198
@@ -20,31 +21,71 @@ Given a list of non-negative integers representing the amount of money of each h
 
 采用动态规划，通项公式为：
 
-```
-Suppose array is from a[0]... a[n]
+{% math %}
+\begin{aligned}
+\text{Let array: $a_0$, $a_1$, $\dots$, $a_n$}\\
+\\
+F(n) = \max \begin{cases}
+F(n-2) + a_n \\[2ex]
+F(n-1)
+\end{cases}
+\end{aligned}
+{% endmath %}
 
-F(n) = max(F(n-2) + a[n], F(n-1))
-```
 
 ### 解法
+
+解法一：
 
 ```java
 public class Solution {
     public int rob(int[] nums) {
-        if(nums == null || nums.length == 0) return 0;
-        if(nums.length == 1) return nums[0];
-        int res = Math.max(nums[0], nums[1]);
-        if(nums.length == 2) return res;
+        if (nums.length <= 1) return nums.length == 0 ? 0 : nums[0];
+        LinkedList<Integer> dp = new LinkedList<>();
+        dp.add(nums[0]);
+        dp.add(Math.max(nums[0], nums[1]));
+        for (int i = 2; i < nums.length; i++) {
+            dp.add(Math.max(nums[i] + dp.get(i - 2), dp.peekLast()));
+        }
+        return dp.peekLast();
+    }
+}
+```
 
-        int hist = nums[0];
-        int pre = res;
-        for(int i = 2; i < nums.length; i++) {
-            res = Math.max(hist + nums[i], pre);
+解法二，按奇偶更新：
+
+```java
+public class Solution {
+    public int rob(int[] nums) {
+        int odd = 0, even = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (i % 2 == 0) {
+                even += nums[i];
+                even = Math.max(odd, even);
+            } else {
+                odd += nums[i];
+                odd = Math.max(odd, even);
+            }
+        }
+        return Math.max(odd, even);
+    }
+}
+```
+
+解法三：
+
+```java
+public class Solution {
+    public int rob(int[] nums) {
+        int ans = 0;
+        int hist = 0, pre = 0;
+        for (int i = 0; i < nums.length; i++) {
+            ans = Math.max(hist + nums[i], pre);
             hist = pre;
-            pre = res;
+            pre = ans;
         }
 
-        return Math.max(res, pre);
+        return Math.max(ans, pre);
     }
 }
 ```
