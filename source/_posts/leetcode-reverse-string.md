@@ -24,7 +24,11 @@ Given s = "hello", return "olleh".
 
 逆序遍历字符串。时间复杂度O(n)。
 
+交换前后指针。时间复杂度O(n)。
+
 ### 解法
+
+方法一：
 
 ```java
 public class Solution {
@@ -35,6 +39,35 @@ public class Solution {
         }
 
         return buffer.toString();
+    }
+}
+```
+
+方法二：
+
+```java
+public class Solution {
+    public String reverseString(String s) {
+        char[] buffer = s.toCharArray();
+        int i = 0, j = buffer.length - 1;
+        while (i < j) {
+            char tmp = buffer[i];
+            buffer[i++] = buffer[j];
+            buffer[j--] = tmp;
+        }
+
+        return new String(buffer);
+    }
+}
+```
+
+方法三：
+
+```java
+public class Solution {
+    public String reverseString(String s) {
+        StringBuilder buffer = new StringBuilder(s);
+        return buffer.reverse().toString();
     }
 }
 ```
