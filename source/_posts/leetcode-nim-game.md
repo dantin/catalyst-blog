@@ -4,6 +4,7 @@ date: 2016-10-19 22:00:42
 categories: 练习
 tags: Leetcode
 toc: true
+mathjax: true
 ---
 
 Leetcode 292
@@ -24,7 +25,15 @@ For example, if there are 4 stones in the heap, then you will never win the game
 
 ### 分析
 
-只有1～3个棋子时，先行拿的人必胜；当有4个棋子时，先拿的人不论如何都会输；把棋子个数放到数轴，每次回朔的步数是1～3步，那么，只要第一次拿完后剩下的棋子是4，则必胜；以此类推...可见`N = 4 * n`时，A必输，以上。
+只有1～3个棋子时，先行拿的人必胜；当有4个棋子时，先拿的人不论如何都会输；把棋子个数放到数轴，每次回朔的步数是1～3步，那么，只要第一次拿完后剩下的棋子是4，则必胜；以此类推...
+
+A必输的情况：
+
+{% math %}
+\begin{aligned}
+N = 4 \times n,  & n \in \mathbb{N}
+\end{aligned}
+{% endmath %}
 
 ### 解法
 
