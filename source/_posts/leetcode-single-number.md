@@ -4,6 +4,7 @@ date: 2016-10-19 22:37:57
 categories: 练习
 tags: Leetcode
 toc: true
+mathjax: true
 ---
 
 Leetcode 136
@@ -20,7 +21,9 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 
 ### 分析
 
-异或的特性是，A xor A = 0，利用这个特性，可以找出此题的解法。
+异或的特性是：$A \oplus A = 0$
+
+利用这个特性，可以找出此题的解法。
 
 ### 解法
 
@@ -28,7 +31,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 public class Solution {
     public int singleNumber(int[] nums) {
         int target = 0;
-        for(int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             target ^= nums[i];
         }
         return target;
