@@ -68,7 +68,14 @@ theme: maupassant
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: dding
+  user: david
+  root: /var/www/catalyst/
+  port: 28254
+  delete: false
+  verbose: true
+  ignore_errors: false
 
 # Plugins
 math:
