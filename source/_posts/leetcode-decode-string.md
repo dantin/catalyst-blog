@@ -10,7 +10,7 @@ Leetcode 394
 
 ### 题目
 
-计算某一范围内个数字二进制中1的个数。
+解码字符串。
 
 Given an encoded string, return it's decoded string.
 
