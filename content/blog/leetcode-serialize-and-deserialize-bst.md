@@ -7,9 +7,6 @@ description = "Leetcode 449"
 slug = "leetcode-serialize-and-deserialize-bst"
 +++
 
-
-Leetcode 449
-
 ### 题目
 
 序列化/反序列化一棵二叉搜索树。
@@ -32,7 +29,7 @@ __Note__: Do not use class member/global/static variables to store states. Your 
 
 __序列化（Serialization）__：
 
-```
+```console
 先序遍历原始二叉树，输出逗号分隔值字符串。
 ```
 
@@ -43,8 +40,7 @@ __反序列化（Deserialization）：
 * 节点栈nstack保存重建二叉树过程中的节点；
 * 右子树栈rstack保存当前节点的右子树允许的最大值。
 
-```
-
+```console
 遍历序列化串：
     取当前数值为val，新增树节点node = TreeNode(val)；
     记ntop为nstack的栈顶元素；

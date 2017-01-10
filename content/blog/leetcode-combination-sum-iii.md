@@ -7,9 +7,6 @@ description = "Leetcode 216"
 slug = "leetcode-combination-sum-iii"
 +++
 
-
-Leetcode 216
-
 ### 题目
 
 寻找所有满足k个数之和等于n的组合，只允许使用数字1-9，并且每一种组合中的数字应该是唯一的。
@@ -21,7 +18,7 @@ Find all possible combinations of _k_ numbers that add up to a number _n_, given
 
 __Example 1__:
 
-```
+```console
 Input: k = 3, n = 7
 
 Output:
@@ -31,7 +28,7 @@ Output:
 
 __Example 2__:
 
-```
+```console
 Input: k = 3, n = 9
 
 Output:

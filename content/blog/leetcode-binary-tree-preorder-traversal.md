@@ -7,9 +7,6 @@ description = "Leetcode 144"
 slug = "leetcode-binary-tree-preorder-traversal"
 +++
 
-
-Leetcode 144
-
 ### 题目
 
 前顺遍历二叉树。
@@ -20,7 +17,7 @@ For example:
 
 Given binary tree {1,#,2,3},
 
-```
+```console
    1
     \
      2
@@ -28,7 +25,7 @@ Given binary tree {1,#,2,3},
    3
 ```
 
-return [1,2,3].
+return $[1,2,3]$.
 
 __Note__: Recursive solution is trivial, could you do it iteratively?
 

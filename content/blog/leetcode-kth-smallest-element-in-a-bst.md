@@ -7,9 +7,6 @@ description = "Leetcode 230"
 slug = "leetcode-kth-smallest-element-in-a-bst"
 +++
 
-
-Leetcode 230
-
 ### 题目
 
 给定一个二叉搜索树，寻找其中的第k小元素。

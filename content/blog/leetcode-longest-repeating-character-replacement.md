@@ -5,7 +5,6 @@ categories = ["Code"]
 tags = ["Leetcode"]
 description = "Leetcode 424"
 slug = "leetcode-longest-repeating-character-replacement"
-
 +++
 
 Hello， 中文

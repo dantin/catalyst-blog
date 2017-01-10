@@ -7,9 +7,6 @@ description = "Leetcode 455"
 slug = "leetcode-assign-cookies"
 +++
 
-
-Leetcode 455
-
 ### 题目
 
 有一堆cookie，每个cookie的大小不同，还有一堆小朋友，每个小朋友的胃口也不同的，问当前的cookie最多能满足几个小朋友。
@@ -24,7 +21,7 @@ You cannot assign more than one cookie to one child.
 
 __Example 1__:
 
-```
+```console
 Input: [1,2,3], [1,1]
 
 Output: 1
@@ -36,7 +33,7 @@ You need to output 1.
 
 __Example 2__:
 
-```
+```console
 Input: [1,2], [1,2,3]
 
 Output: 2

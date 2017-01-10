@@ -7,9 +7,6 @@ description = "Leetcode 445"
 slug = "leetcode-add-two-numbers-ii"
 +++
 
-
-Leetcode 445
-
 ### 题目
 
 计算两个列表数字的和。
@@ -24,7 +21,7 @@ What if you cannot modify the input lists? In other words, reversing the lists i
 
 __Example__:
 
-```
+```console
 Input: (7 -> 2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 8 -> 0 -> 7
 ```
@@ -37,7 +34,7 @@ Output: 7 -> 8 -> 0 -> 7
 
 方法二：
 
-```
+```console
 统计两链表长度s1, s2；最终结果链表长度s = max(s1, s2) （若有进位，则为s+1）
 将两链表对齐并逐节点求和，记头节点为h（头节点为dummy node，最高位从h.next开始）
 初始令指针p指向头节点h，执行循环：

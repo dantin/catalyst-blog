@@ -7,9 +7,6 @@ description = "Leetcode 20"
 slug = "leetcode-valid-parentheses"
 +++
 
-
-Leetcode 20
-
 ### 题目
 
 判断括号字符串是否合法。

@@ -7,18 +7,15 @@ description = "Leetcode 268"
 slug = "leetcode-missing-number"
 +++
 
-
-Leetcode 268
-
 ### 题目
 
 找出缺失的数字。
 
-Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
+Given an array containing n distinct numbers taken from $0, 1, 2, \dots , n$, find the one that is missing from the array.
 
 For example,
 
-Given nums = [0, 1, 3] return 2.
+Given nums = $[0, 1, 3]$ return 2.
 
 __Note__:
 

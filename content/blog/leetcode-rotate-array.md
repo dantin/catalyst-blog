@@ -7,16 +7,13 @@ description = "Leetcode 189"
 slug = "leetcode-rotate-array"
 +++
 
-
-Leetcode 189
-
 ### 题目
 
 选择数组。
 
 Rotate an array of n elements to the right by k steps.
 
-For example, with n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4].
+For example, with n = 7 and k = 3, the array $[1,2,3,4,5,6,7]$ is rotated to $[5,6,7,1,2,3,4]$.
 
 __Note__:
 
@@ -28,7 +25,7 @@ Try to come up as many solutions as you can, there are at least 3 different ways
 
 找规律，通过三次反转，我们可以很巧妙的实现旋转数组。首先我们将整个数组反转，然后将前k个数字反转，然后再将后面剩下的数字反转，就得到目标数组了。
 
-```
+```console
 1, 2, 3, 4, 5, 6, 7
 7, 6, 5, 4, 3, 2, 1
 5, 6, 7, 4, 3, 2, 1

@@ -7,9 +7,6 @@ description = "Leetcode 459"
 slug = "leetcode-repeated-substring-pattern"
 +++
 
-
-Leetcode 459
-
 ### 题目
 
 判断是否存在重复子串。
@@ -18,7 +15,7 @@ Given a non-empty string check if it can be constructed by taking a substring of
 
 __Example 1__:
 
-```
+```console
 Input: "abab"
 
 Output: True
@@ -28,7 +25,7 @@ Explanation: It's the substring "ab" twice.
 
 __Example 2__:
 
-```
+```console
 Input: "aba"
 
 Output: False
@@ -36,7 +33,7 @@ Output: False
 
 __Example 3__:
 
-```
+```console
 Input: "abcabcabcabc"
 
 Output: True

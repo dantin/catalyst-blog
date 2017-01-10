@@ -7,9 +7,6 @@ description = "Leetcode 337"
 slug = "leetcode-house-robber-iii"
 +++
 
-
-Leetcode 337
-
 ### 题目
 
 升级2.0版的[House Robber](/2016/11/04/leetcode-house-robber/)，沿着二叉树开始偷，求最大可能的抢劫数量，不能相邻取。
@@ -20,7 +17,7 @@ Determine the maximum amount of money the thief can rob tonight without alerting
 
 __Example 1__:
 
-```
+```console
      3
     / \
    2   3
@@ -28,11 +25,11 @@ __Example 1__:
      3   1
 ```
 
-Maximum amount of money the thief can rob = 3 + 3 + 1 = 7.
+Maximum amount of money the thief can $rob = 3 + 3 + 1 = 7$.
 
 __Example 2__:
 
-```
+```console
      3
     / \
    4   5
@@ -40,7 +37,7 @@ __Example 2__:
  1   3   1
 ```
 
-Maximum amount of money the thief can rob = 4 + 5 = 9.
+Maximum amount of money the thief can $rob = 4 + 5 = 9$.
 
 ### 分析
 

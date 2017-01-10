@@ -7,9 +7,6 @@ description = "Leetcode 168"
 slug = "leetcode-excel-sheet-column-title"
 +++
 
-
-Leetcode 168
-
 ### 题目
 
 计算Excel的列头。
@@ -18,7 +15,7 @@ Given a positive integer, return its corresponding column title as appear in an 
 
 For example:
 
-```
+```console
     1 -> A
     2 -> B
     3 -> C

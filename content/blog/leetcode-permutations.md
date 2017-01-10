@@ -7,9 +7,6 @@ description = "Leetcode 46"
 slug = "leetcode-permutations"
 +++
 
-
-Leetcode 46
-
 ### 题目
 
 求数组的全排列。
@@ -18,9 +15,9 @@ Given a collection of _distinct_ numbers, return all possible permutations.
 
 For example,
 
-`[1,2,3]` have the following permutations:
+$[1,2,3]$ have the following permutations:
 
-```
+```console
 [
   [1,2,3],
   [1,3,2],

@@ -7,9 +7,6 @@ description = "Leetcode 1"
 slug = "leetcode-two-sum"
 +++
 
-
-Leetcode 1
-
 ### 题目
 
 找出和为某数的下标。
@@ -20,7 +17,7 @@ You may assume that each input would have exactly one solution.
 
 __Example__:
 
-```
+```console
 Given nums = [2, 7, 11, 15], target = 9,
 
 Because nums[0] + nums[1] = 2 + 7 = 9,
@@ -31,21 +28,21 @@ return [0, 1].
 
 #### 方法一
 
-暴力解法，O(n^2)的复杂度。速度上不符合要求。
+暴力解法，$O(n^2)$的复杂度。速度上不符合要求。
 
 #### 方法二
 
 空间换时间，缓存中间结果，注意Double的情况。
 
-```bash
+```console
 Key ＝ target - nums[i]
 Value = i
 ```
 
-* 若num命中，则结果为：`(i, cache[num])`
-* 不命中，则缓存当前数据，`cache[num] = i`
+* 若num命中，则结果为：$(i, cache[num])$
+* 不命中，则缓存当前数据，$cache[num] = i$
 
-特殊情况：`i == cache[num]`
+特殊情况：$i == cache[num]$
 
 ### 解法
 

@@ -7,9 +7,6 @@ description = "Leetcode 12"
 slug = "leetcode-integer-to-roman"
 +++
 
-
-Leetcode 12
-
 ### 题目
 
 阿拉伯数字转成罗马数字。
@@ -22,14 +19,14 @@ Input is guaranteed to be within the range from 1 to 3999.
 
 字母可以重复，但不超过三次，当需要超过三次时，用与下一位的组合表示：
 
-```
+```console
 I: 1, II: 2, III: 3, IV: 4
 C: 100, CC: 200, CCC: 300, CD: 400
 ```
 
 转化例子：
 
-```
+```console
 s = 3978
 3978/1000 = 3: MMM
 978>(1000-100), 998/900 = 1: CM

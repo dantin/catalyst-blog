@@ -7,9 +7,6 @@ description = "Leetcode 203"
 slug = "leetcode-remove-linked-list-elements"
 +++
 
-
-Leetcode 203
-
 ### 题目
 
 移除链表中值为特定目标的所有节点。
@@ -18,7 +15,7 @@ Remove all elements from a linked list of integers that have value val.
 
 Example
 
-```
+```console
 Given: 1 --> 2 --> 6 --> 3 --> 4 --> 5 --> 6, val = 6
 Return: 1 --> 2 --> 3 --> 4 --> 5
 ```

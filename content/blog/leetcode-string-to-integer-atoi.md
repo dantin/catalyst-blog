@@ -7,9 +7,6 @@ description = "Leetcode 8"
 slug = "leetcode-string-to-integer-atoi"
 +++
 
-
-Leetcode 8
-
 ### 题目
 
 字符串转数字，实现atoi函数。

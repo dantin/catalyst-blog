@@ -7,9 +7,6 @@ description = "Leetcode 234"
 slug = "leetcode-palindrome-linked-list"
 +++
 
-
-Leetcode 234
-
 ### 题目
 
 判断一个链表是否对称。

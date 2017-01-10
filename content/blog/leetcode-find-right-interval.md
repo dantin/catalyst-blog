@@ -7,9 +7,6 @@ description = "Leetcode 436"
 slug = "leetcode-find-right-interval"
 +++
 
-
-Leetcode 436
-
 ### 题目
 
 给一组区间，对于每一个区间i，检查是否存在区间j，满足j的起点大于等于i的终点，我们称j在i的“右边"。
@@ -27,7 +24,7 @@ __Note__:
 
 __Example 1__:
 
-```
+```console
 Input: [ [1,2] ]
 
 Output: [-1]
@@ -37,7 +34,7 @@ Explanation: There is only one interval in the collection, so it outputs -1.
 
 __Example 2__:
 
-```
+```console
 Input: [ [3,4], [2,3], [1,2] ]
 
 Output: [-1, 0, 1]
@@ -49,7 +46,7 @@ For [1,2], the interval [2,3] has minimum-"right" start point.
 
 __Example 3__:
 
-```
+```console
 Input: [ [1,4], [2,3], [3,4] ]
 
 Output: [-1, 2, -1]

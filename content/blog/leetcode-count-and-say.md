@@ -7,9 +7,6 @@ description = "Leetcode 38"
 slug = "leetcode-count-and-say"
 +++
 
-
-Leetcode 38
-
 ### 题目
 
 数数序列。

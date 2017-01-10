@@ -7,9 +7,6 @@ description = "Leetcode 477"
 slug = "leetcode-total-hamming-distance"
 +++
 
-
-Leetcode 477
-
 ### 题目
 
 求两个整数之间的[海明距离](https://en.wikipedia.org/wiki/Hamming_distance)。
@@ -20,7 +17,7 @@ Now your job is to find the total Hamming distance between all pairs of the give
 
 __Example__:
 
-```
+```console
 Input: 4, 14, 2
 
 Output: 6
@@ -40,13 +37,13 @@ __Note__:
 
 ### 分析
 
-按位统计各整数的二进制位置i上的0与1的个数之和，分别记为zero, 和one，其中：`zero + one = len(num)`
+按位统计各整数的二进制位置i上的0与1的个数之和，分别记为zero, 和one，其中：$zero + one = len(num)$
 
-{% math %}
+$$
 \begin{aligned}
-\sum_{i=0}^{31} C_{zero}^1 C_{one}^{1}
+\sum\_{i=0}^{31} C_{zero}^1 C\_{one}^{1}
 \end{aligned}
-{% endmath %}
+$$
 
 ### 解法
 

@@ -7,9 +7,6 @@ description = "Leetcode 423"
 slug = "leetcode-reconstruct-original-digits-from-english"
 +++
 
-
-Leetcode 423
-
 ### 题目
 
 从英文字母重建数字。
@@ -24,7 +21,7 @@ __Note__:
 
 __Example 1__:
 
-```
+```console
 Input: "owoztneoer"
 
 Output: "012"
@@ -32,7 +29,7 @@ Output: "012"
 
 __Example 2__:
 
-```
+```console
 Input: "fviefuro"
 
 Output: "45"

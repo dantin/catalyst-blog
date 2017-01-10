@@ -7,9 +7,6 @@ description = "Leetcode 343"
 slug = "leetcode-integer-break"
 +++
 
-
-Leetcode 343
-
 ### 题目
 
 给定一个自然数 n (n ≥ 2），将它拆分成不少于两个自然数之和，对这些拆分后的自然数求积，要求算出最大的乘积。
@@ -30,7 +27,7 @@ __Hint__:
 
 发现规律
 
-```
+```console
 2 = 1 + 1 -> 1
 3 = 2 + 1 -> 2
 4 = 2 + 2 -> 4
@@ -44,7 +41,7 @@ __Hint__:
 
 通项公式：
 
-```
+```console
 f(2) = 1
 f(3) = 2
 f(3k) = 3k (k ≥ 2)
@@ -54,20 +51,20 @@ f(3k+2) = 2 * 3k (k ≥ 1)
 
 证明
 
-{% math %}
+$$
 \begin{aligned}
-\frac{\mathrm{d}}{\mathrm{d} x} \left( x^{n/x} \right)\\
-= \frac{\mathrm{d}}{\mathrm{d} x} \left( \mathrm{e}^{\frac{n \log{(x)}}{x}} \right)\\
-= \left( \frac{\mathrm{d}}{\mathrm{d} x} \left( \frac{n \log{(x)}}{x} \right) \right) \mathrm{e}^\frac{n \log{(x)}}{x}\\
-= x^\frac{n}{x} \frac{\mathrm{d}}{\mathrm{d} x} \left( \frac{n \log{(x)}}{x} \right)\\
-= n \frac{\mathrm{d}}{\mathrm{d} x} \left( \frac{\log{(x)}}{x} \right) x^{n/x}\\
-= \frac{x \frac{\mathrm{d}}{\mathrm{d} x}\left( \log{(x)} \right) - \log{(x)}\frac{\mathrm{d}}{\mathrm{d} x} \left( x \right)}{x^2} n x^{n/x}\\
-= nx^{-2 + \frac{n}{x}} \left( -\log{(x)}\left( \frac{\mathrm{d}}{\mathrm{d} x} \left( x \right) \right) + x \left( \frac{\mathrm{d}}{\mathrm{d} x} \left( \log{(x)} \right) \right) \right)\\
-= nx^{-2 + \frac{n}{x}} \left( x\left( \frac{\mathrm{d}}{\mathrm{d} x} \left( \log{(x)} \right) \right) - \log{(x)} \right) \\
-= nx^{-2 + \frac{n}{x}} \left( -\log{(x)} + \frac{1}{x}x \right) \\
+\frac{\mathrm{d}}{\mathrm{d} x} \left( x^{n/x} \right)\newline
+= \frac{\mathrm{d}}{\mathrm{d} x} \left( \mathrm{e}^{\frac{n \log{(x)}}{x}} \right)\newline
+= \left( \frac{\mathrm{d}}{\mathrm{d} x} \left( \frac{n \log{(x)}}{x} \right) \right) \mathrm{e}^\frac{n \log{(x)}}{x}\newline
+= x^\frac{n}{x} \frac{\mathrm{d}}{\mathrm{d} x} \left( \frac{n \log{(x)}}{x} \right)\newline
+= n \frac{\mathrm{d}}{\mathrm{d} x} \left( \frac{\log{(x)}}{x} \right) x^{n/x}\newline
+= \frac{x \frac{\mathrm{d}}{\mathrm{d} x}\left( \log{(x)} \right) - \log{(x)}\frac{\mathrm{d}}{\mathrm{d} x} \left( x \right)}{x^2} n x^{n/x}\newline
+= nx^{-2 + \frac{n}{x}} \left( -\log{(x)}\left( \frac{\mathrm{d}}{\mathrm{d} x} \left( x \right) \right) + x \left( \frac{\mathrm{d}}{\mathrm{d} x} \left( \log{(x)} \right) \right) \right)\newline
+= nx^{-2 + \frac{n}{x}} \left( x\left( \frac{\mathrm{d}}{\mathrm{d} x} \left( \log{(x)} \right) \right) - \log{(x)} \right) \newline
+= nx^{-2 + \frac{n}{x}} \left( -\log{(x)} + \frac{1}{x}x \right) \newline
 = nx^{-2 + \frac{n}{x}} \left( 1 -\log{(x)} \right)
 \end{aligned}
-{% endmath %}
+$$
 
 其中：
 

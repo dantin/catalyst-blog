@@ -7,9 +7,6 @@ description = "Leetcode 167"
 slug = "leetcode-two-sum-ii-input-array-is-sorted"
 +++
 
-
-Leetcode 167
-
 ### 题目
 
 找出和为某数的下标。
@@ -20,14 +17,14 @@ The function twoSum should return indices of the two numbers such that they add 
 
 You may assume that each input would have exactly one solution.
 
-```
+```console
 Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
 ```
 
 ### 分析
 
-二分法，因为一定有解，而且数组是有序的，那么第一个数字肯定要小于目标值target，那么我们每次用二分法来搜索target - numbers[i]即可，复杂度：O(N*lgN)。
+二分法，因为一定有解，而且数组是有序的，那么第一个数字肯定要小于目标值target，那么我们每次用二分法来搜索$target - numbers[i]$即可，复杂度：$O(N*\log N)$。
 
 两个指针，一个指向开头，一个指向末尾，然后向中间遍历，如果指向的两个数相加正好等于target的话，直接返回两个指针的位置即可，若小于target，左指针右移一位，若大于target，右指针左移一位，以此类推直至两个指针相遇停止。
 

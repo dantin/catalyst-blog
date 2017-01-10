@@ -4,7 +4,7 @@ db.json
 *.log
 node_modules/
 /public/
-/themes/
+themes/
 !themes/.gitkeep
 .deploy*/
 

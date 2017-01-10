@@ -7,9 +7,6 @@ description = "Leetcode 319"
 slug = "leetcode-bulb-switcher"
 +++
 
-
-Leetcode 319
-
 ### 题目
 
 有n盏初始处于关闭状态的灯泡。首先打开所有的灯泡。然后，熄灭所有序号为2的倍数的灯泡。第三轮，切换所有序号为3的倍数的灯泡（开着的就关掉，关着的就打开）。第n轮，你只切换最后一只灯泡。计算n轮之后还有几盏灯泡亮着。
@@ -18,7 +15,7 @@ There are n bulbs that are initially off. You first turn on all the bulbs. Then,
 
 __Example__:
 
-```
+```console
 Given n = 3. 
 
 At first, the three bulbs are [off, off, off].
@@ -33,7 +30,7 @@ So you should return 1, because there is only one bulb is on.
 
 只有5个灯泡的情况，'X'表示灭，‘O’表示亮，如下所示：
 
-```
+```console
 init：    X    X    X    X    X
 1st：     O    O    O    O    O
 2nd：     O    X    O    X    O

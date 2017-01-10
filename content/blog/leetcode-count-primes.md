@@ -7,9 +7,6 @@ description = "Leetcode 204"
 slug = "leetcode-count-primes"
 +++
 
-
-Leetcode 204
-
 ### 题目
 
 计算某一范围内的质数个数。

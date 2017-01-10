@@ -7,9 +7,6 @@ description = "Leetcode 461"
 slug = "leetcode-hamming-distance"
 +++
 
-
-Leetcode 461
-
 ### 题目
 
 求两个数字的[海明距离](https://en.wikipedia.org/wiki/Hamming_distance)。
@@ -24,7 +21,7 @@ __Note__:
 
 __Example__:
 
-```
+```console
 Input: x = 1, y = 4
 
 Output: 2

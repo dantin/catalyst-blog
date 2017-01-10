@@ -7,12 +7,9 @@ description = "Leetcode 378"
 slug = "leetcode-kth-smallest-element-in-a-sorted-matrix"
 +++
 
-
-Leetcode 378
-
 ### 题目
 
-给定一个`n*n`矩阵，其中每一行每一列都按照递增序排列，寻找矩阵中的第k小元素。
+给定一个$n*n$矩阵，其中每一行每一列都按照递增序排列，寻找矩阵中的第k小元素。
 
 Given a n x n matrix where each of the rows and columns are sorted in ascending order, find the kth smallest element in the matrix.
 
@@ -20,7 +17,7 @@ Note that it is the kth smallest element in the sorted order, not the kth distin
 
 __Example__:
 
-```
+```console
 matrix = [
    [ 1,  5,  9],
    [10, 11, 13],
@@ -39,7 +36,7 @@ You may assume k is always valid, $1 \leqslant k \leqslant n^2$.
 
 利用最大堆
 
-```
+```console
 首先将矩阵的左上角（下标0,0）元素加入堆
 
 然后遍历矩阵：

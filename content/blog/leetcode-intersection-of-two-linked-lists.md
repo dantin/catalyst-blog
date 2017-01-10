@@ -7,9 +7,6 @@ description = "Leetcode 160"
 slug = "leetcode-intersection-of-two-linked-lists"
 +++
 
-
-Leetcode 160
-
 ### 题目
 
 求两个单链表的交叉节点。
@@ -19,7 +16,7 @@ Write a program to find the node at which the intersection of two singly linked 
 
 For example, the following two linked lists:
 
-```
+```console
 A:          a1 → a2
                    ↘
                      c1 → c2 → c3

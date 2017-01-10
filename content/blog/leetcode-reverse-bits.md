@@ -7,9 +7,6 @@ description = "Leetcode 190"
 slug = "leetcode-reverse-bits"
 +++
 
-
-Leetcode 190
-
 ### 题目
 
 反转Bit。

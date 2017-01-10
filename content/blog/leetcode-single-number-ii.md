@@ -7,9 +7,6 @@ description = "Leetcode 137"
 slug = "leetcode-single-number-ii"
 +++
 
-
-Leetcode 137
-
 ### 题目
 
 给出 3*n + 1 个的数字，除其中一个数字之外其他每个数字均出现三次，找到这个数字。

@@ -7,9 +7,6 @@ description = "Leetcode 112"
 slug = "leetcode-path-sum"
 +++
 
-
-Leetcode 112
-
 ### 题目
 
 搜索根节点到叶子节点是否存在权制为n的路径。
@@ -19,7 +16,7 @@ Given a binary tree and a sum, determine if the tree has a root-to-leaf path suc
 For example:
 Given the below binary tree and sum = 22,
 
-```
+```console
               5
              / \
             4   8
@@ -29,7 +26,7 @@ Given the below binary tree and sum = 22,
         7    2      1
 ```
 
-return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
+return true, as there exist a root-to-leaf path $5 \to 4 \to 11 \to 2$ which sum is 22.
 
 ### 分析
 

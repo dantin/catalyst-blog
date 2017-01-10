@@ -7,9 +7,6 @@ description = "Leetcode 434"
 slug = "leetcode-number-of-segments-in-a-string"
 +++
 
-
-Leetcode 434
-
 ### 题目
 
 求字符串中连续非空子串的数量。
@@ -20,7 +17,7 @@ Please note that the string does not contain any non-printable characters.
 
 __Example__:
 
-```
+```console
 Input: "Hello, my name is John"
 Output: 5
 ```

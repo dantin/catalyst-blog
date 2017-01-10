@@ -7,9 +7,6 @@ description = "Leetcode 414"
 slug = "leetcode-third-maximum-number"
 +++
 
-
-Leetcode 414
-
 ### 题目
 
 找数组中第三大的数。
@@ -18,7 +15,7 @@ Given a non-empty array of integers, return the third maximum number in this arr
 
 __Example 1__:
 
-```
+```console
 Input: [3, 2, 1]
 
 Output: 1
@@ -28,7 +25,7 @@ Explanation: The third maximum is 1.
 
 __Example 2__:
 
-```
+```console
 Input: [1, 2]
 
 Output: 2
@@ -38,7 +35,7 @@ Explanation: The third maximum does not exist, so the maximum (2) is returned in
 
 __Example 3__:
 
-```
+```console
 Input: [2, 2, 3, 1]
 
 Output: 1

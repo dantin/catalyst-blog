@@ -7,9 +7,6 @@ description = "Leetcode 223"
 slug = "leetcode-rectangle-area"
 +++
 
-
-Leetcode 223
-
 ### 题目
 
 两个矩形的覆盖面积。
@@ -26,7 +23,7 @@ Assume that the total area is never beyond the maximum possible value of int.
 
 题目可以转化为计算矩形相交部分的面积
 
-```
+```console
 S(M) = (C - A) * (D - B)
 S(N) = (G - E) * (H - F)
 S(M ∩ N) = max(min(C, G) - max(A, E), 0) * max(min(D, H) - max(B, F), 0)

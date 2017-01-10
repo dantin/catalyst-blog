@@ -7,9 +7,6 @@ description = "Leetcode 28"
 slug = "leetcode-implement-strstr"
 +++
 
-
-Leetcode 28
-
 ### 题目
 
 找出字符串中某子串的下标。

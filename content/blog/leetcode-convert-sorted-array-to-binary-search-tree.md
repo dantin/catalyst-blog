@@ -7,9 +7,6 @@ description = "Leetcode 108"
 slug = "leetcode-convert-sorted-array-to-binary-search-tree"
 +++
 
-
-Leetcode 108
-
 ### 题目
 
 把一个有序数组转化成一棵平衡二叉搜索树。

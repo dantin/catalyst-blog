@@ -7,9 +7,6 @@ description = "Leetcode 382"
 slug = "leetcode-linked-list-random-node"
 +++
 
-
-Leetcode 382
-
 ### 题目
 
 取链表中的任意节点。
@@ -22,7 +19,7 @@ What if the linked list is extremely large and its length is unknown to you? Cou
 
 Example:
 
-```
+```java
 // Init a singly linked list [1,2,3].
 ListNode head = new ListNode(1);
 head.next = new ListNode(2);
@@ -39,7 +36,7 @@ solution.getRandom();
 
 或者统计出链表的长度，然后根据长度随机生成一个位置，然后从开头遍历到这个位置。
 
-但是，Follow up中说链表可能很长，我们没法提前知道长度，这里用到了著名了[水塘抽样](/2016/12/07/random-sampling-with-a-reservoir/)的思路，由于限定了head一定存在，所以我们先让返回值res等于head的节点值，然后让cur指向head的下一个节点，定义一个变量i，初始化为2，若cur不为空我们开始循环，我们在[0, i - 1]中取一个随机数，如果取出来0，那么我们更新res为当前的cur的节点值，然后此时i自增一，cur指向其下一个位置，这里其实相当于我们维护了一个大小为1的水塘，然后我们随机数生成为0的话，我们交换水塘中的值和当前遍历到底值，这样可以保证每个数字的概率相等
+但是，Follow up中说链表可能很长，我们没法提前知道长度，这里用到了著名了[水塘抽样](/2016/12/07/random-sampling-with-a-reservoir/)的思路，由于限定了head一定存在，所以我们先让返回值res等于head的节点值，然后让cur指向head的下一个节点，定义一个变量i，初始化为2，若cur不为空我们开始循环，我们在$[0, i - 1]$中取一个随机数，如果取出来0，那么我们更新res为当前的cur的节点值，然后此时i自增一，cur指向其下一个位置，这里其实相当于我们维护了一个大小为1的水塘，然后我们随机数生成为0的话，我们交换水塘中的值和当前遍历到底值，这样可以保证每个数字的概率相等
 
 ### 解法
 

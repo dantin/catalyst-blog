@@ -7,9 +7,6 @@ description = "Leetcode 406"
 slug = "leetcode-queue-reconstruction-by-height"
 +++
 
-
-Leetcode 406
-
 ### 题目
 
 假设有一队人随机站成一个圈。每个人通过一对整数(h, k)描述，其中h是其身高，k是站在他前面并且身高不低于他的人数。编写算法重构队列。
@@ -22,7 +19,7 @@ The number of people is less than 1,100.
 
 __Example__
 
-```
+```console
 Input:
 [[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]
 

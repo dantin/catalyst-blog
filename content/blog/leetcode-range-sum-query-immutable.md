@@ -7,9 +7,6 @@ description = "Leetcode 303"
 slug = "leetcode-range-sum-query-immutable"
 +++
 
-
-Leetcode 303
-
 ### 题目
 
 给定整数数组nums，计算下标i与j之间的元素和（i ≤ j），包含边界。
@@ -18,7 +15,7 @@ Given an integer array nums, find the sum of the elements between indices i and 
 
 __Example__:
 
-```
+```console
 Given nums = [-2, 0, 3, -5, 2, -1]
 
 sumRange(0, 2) -> 1
@@ -43,7 +40,7 @@ __Note__:
 
 计算辅助数组sums：
 
-```
+```console
 sums[0] = 0
 sums[i+1] = sums[i] + nums[i]
 ```

@@ -7,9 +7,6 @@ description = "Leetcode 328"
 slug = "leetcode-odd-even-linked-list"
 +++
 
-
-Leetcode 328
-
 ### 题目
 
 求字符串中连续非空子串的数量。
@@ -37,7 +34,7 @@ The first node is considered odd, the second node even and so on ...
 
 初始状态
 
-```
+```console
              +----------+
              | evenHead |
              +----------+
@@ -57,7 +54,7 @@ The first node is considered odd, the second node even and so on ...
 
 合并前状态
 
-```
+```console
 +----------+     +---+
 |   even   | --> | ^ | <----------+
 +----------+     +---+            |

@@ -7,9 +7,6 @@ description = "Leetcode 155"
 slug = "leetcode-min-stack"
 +++
 
-
-Leetcode 155
-
 ### 题目
 
 支持最小值的栈。
@@ -23,7 +20,7 @@ Design a stack that supports push, pop, top, and retrieving the minimum element 
 
 __Example__:
 
-```
+```console
 MinStack minStack = new MinStack();
 minStack.push(-2);
 minStack.push(0);

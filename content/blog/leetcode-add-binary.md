@@ -7,9 +7,6 @@ description = "Leetcode 67"
 slug = "leetcode-add-binary"
 +++
 
-
-Leetcode 67
-
 ### 题目
 
 两个二进制字符串求和。
@@ -18,7 +15,7 @@ Given two binary strings, return their sum (also a binary string).
 
 For example,
 
-```
+```console
 a = "11"
 b = "1"
 Return "100".

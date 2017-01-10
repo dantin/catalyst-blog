@@ -7,9 +7,6 @@ description = "Leetcode 125"
 slug = "leetcode-valid-palindrome"
 +++
 
-
-Leetcode 125
-
 ### 题目
 
 判断字符串是否是回文。

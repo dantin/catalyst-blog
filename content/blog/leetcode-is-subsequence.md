@@ -7,9 +7,6 @@ description = "Leetcode 112"
 slug = "leetcode-is-subsequence"
 +++
 
-
-Leetcode 112
-
 ### 题目
 
 给定字符串s与字符串t，判断s是否是t的子序列。

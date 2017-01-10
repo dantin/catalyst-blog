@@ -7,9 +7,6 @@ description = "Leetcode 88"
 slug = "leetcode-merge-sorted-array"
 +++
 
-
-Leetcode 88
-
 ### 题目
 
 合并两个已排好序的数组。

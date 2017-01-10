@@ -7,9 +7,6 @@ description = "Leetcode 213"
 slug = "leetcode-house-robber-ii"
 +++
 
-
-Leetcode 213
-
 ### 题目
 
 升级版的[House Robber](/2016/11/04/leetcode-house-robber/)，现在头尾成环，求最大可能的抢劫数量，不能相邻取。

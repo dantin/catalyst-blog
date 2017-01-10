@@ -7,9 +7,6 @@ description = "Leetcode 165"
 slug = "leetcode-compare-version-numbers"
 +++
 
-
-Leetcode 165
-
 ### 题目
 
 比较版本号。
@@ -26,7 +23,7 @@ For instance, 2.5 is not "two and a half" or "half way to version three", it is 
 
 Here is an example of version numbers ordering:
 
-```
+```console
 0.1 < 1.1 < 1.2 < 13.37
 ```
 
@@ -34,7 +31,7 @@ Here is an example of version numbers ordering:
 
 顺序比较每一个部分，但是需要注意一些特殊情况，如：
 
-```
+```console
 1.0 == 1
 ```
 

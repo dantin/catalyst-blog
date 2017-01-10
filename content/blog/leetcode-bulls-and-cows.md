@@ -7,9 +7,6 @@ description = "Leetcode 299"
 slug = "leetcode-bulls-and-cows"
 +++
 
-
-Leetcode 299
-
 ### 题目
 
 判断出现的相同字符。
@@ -18,7 +15,7 @@ You are playing the following [Bulls and Cows](https://en.wikipedia.org/wiki/Bul
 
 For example:
 
-```
+```console
 Secret number:  "1807"
 Friend's guess: "7810"
 ```
@@ -29,7 +26,7 @@ Write a function to return a hint according to the secret number and friend's gu
 
 Please note that both secret number and friend's guess may contain duplicate digits, for example:
 
-```
+```console
 Secret number:  "1123"
 Friend's guess: "0111"
 ```

@@ -7,9 +7,6 @@ description = "Leetcode 94"
 slug = "leetcode-binary-tree-inorder-traversal"
 +++
 
-
-Leetcode 94
-
 ### 题目
 
 中顺遍历二叉树。
@@ -18,9 +15,9 @@ Given a binary tree, return the inorder traversal of its nodes' values.
 
 For example:
 
-Given binary tree [1,null,2,3],
+Given binary tree $[1,null,2,3]$,
 
-```
+```console
    1
     \
      2
@@ -28,7 +25,7 @@ Given binary tree [1,null,2,3],
    3
 ```
 
-return [1,3,2].
+return $[1,3,2]$.
 
 __Note__: Recursive solution is trivial, could you do it iteratively?
 

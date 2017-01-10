@@ -7,9 +7,6 @@ description = "Leetcode 22"
 slug = "leetcode-generate-parentheses"
 +++
 
-
-Leetcode 22
-
 ### 题目
 
 所有合理的括号排列。
@@ -18,7 +15,7 @@ Given $n$ pairs of parentheses, write a function to generate all combinations of
 
 For example, given $n = 3$, a solution set is:
 
-```
+```console
 [
   "((()))",
   "(()())",

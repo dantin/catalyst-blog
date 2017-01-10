@@ -7,9 +7,6 @@ description = "Leetcode 111"
 slug = "leetcode-minimum-depth-of-binary-tree"
 +++
 
-
-Leetcode 111
-
 ### 题目
 
 找出二叉树根到任意叶子节点的最短深度。

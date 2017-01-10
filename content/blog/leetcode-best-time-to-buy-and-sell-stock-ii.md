@@ -7,9 +7,6 @@ description = "Leetcode 122"
 slug = "leetcode-best-time-to-buy-and-sell-stock-ii"
 +++
 
-
-Leetcode 122
-
 ### 题目
 
 找出最优的股票买入卖出时机（不限制交易次数，但是任意时段只能有一笔交易）。

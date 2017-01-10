@@ -7,9 +7,6 @@ description = "Leetcode 204"
 slug = "leetcode-counting-bits"
 +++
 
-
-Leetcode 204
-
 ### 题目
 
 计算某一范围内个数字二进制中1的个数。
@@ -18,7 +15,7 @@ Given a non negative integer number num. For every numbers i in the range 0 ≤ 
 
 __Example__:
 
-For num = 5 you should return [0,1,1,2,1,2].
+For num = 5 you should return $[0,1,1,2,1,2]$.
 
 __Follow up__:
 
@@ -29,14 +26,14 @@ __Follow up__:
 __Hint__:
 
 1. You should make use of what you have produced already.
-2. Divide the numbers in ranges like [2-3], [4-7], [8-15] and so on. And try to generate new range from previous.
+2. Divide the numbers in ranges like $[2-3], [4-7], [8-15]$ and so on. And try to generate new range from previous.
 3. Or does the odd/even status of the number help you in calculating the number of 1s?
 
 ### 分析
 
 本题采用动规，观察数字的规律：
 
-```
+```console
 dp[0] = 0;
 dp[1] = dp[0] + 1;
 dp[2] = dp[0] + 1;
@@ -51,7 +48,7 @@ dp[8] = dp[0] + 1;
 
 类似约瑟夫环的做法
 
-```
+```console
 dp[0] = 0;
 dp[1] = dp[1-1] + 1;
 dp[2] = dp[2-2] + 1;
@@ -66,7 +63,7 @@ dp[8] = dp[8-8] + 1;
 
 得到递推公式：
 
-```
+```console
 dp[index] = dp[index - offset] + 1;
 ```
 

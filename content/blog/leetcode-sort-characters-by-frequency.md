@@ -7,9 +7,6 @@ description = "Leetcode 451"
 slug = "leetcode-sort-characters-by-frequency"
 +++
 
-
-Leetcode 451
-
 ### 题目
 
 给定一个字符串，将字符按照出现次数倒序排列。
@@ -18,7 +15,7 @@ Given a string, sort it in decreasing order based on the frequency of characters
 
 __Example 1__:
 
-```
+```console
 Input:
 "tree"
 
@@ -32,7 +29,7 @@ So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid ans
 
 __Example 2__:
 
-```
+```console
 Input:
 "cccaaa"
 
@@ -46,7 +43,7 @@ Note that "cacaca" is incorrect, as the same characters must be together.
 
 __Example 3__:
 
-```
+```console
 Input:
 "Aabb"
 

@@ -7,9 +7,6 @@ description = "Leetcode 241"
 slug = "leetcode-different-ways-to-add-parentheses"
 +++
 
-
-Leetcode 241
-
 ### 题目
 
 一个可能含有加减乘的表达式，在任意位置添加括号，求出所有可能表达式的不同值。
@@ -18,20 +15,20 @@ Given a string of numbers and operators, return all possible results from comput
 
 __Example 1__
 
-Input: "`2-1-1`".
+Input: "$2-1-1$".
 
-```
+```console
 ((2-1)-1) = 0
 (2-(1-1)) = 2
 ```
 
-Output: `[0, 2]`
+Output: $[0, 2]$
 
 __Example 2__
 
-Input: "`2*3-4*5`"
+Input: "$2*3-4*5$"
 
-```
+```console
 (2*(3-(4*5))) = -34
 ((2*3)-(4*5)) = -14
 ((2*(3-4))*5) = -10
@@ -39,13 +36,13 @@ Input: "`2*3-4*5`"
 (((2*3)-4)*5) = 10
 ```
 
-Output: `[-34, -14, -10, -10, 10]`
+Output: $[-34, -14, -10, -10, 10]$
 
 ### 分析
 
 以2-1-1为例，所有可能的情况：
 
-```
+```console
   -           -
  / \         / \
 2   -       -   1
@@ -53,7 +50,7 @@ Output: `[-34, -14, -10, -10, 10]`
   1   1   2   1
 ```
 
-得到的结果：2, 0
+得到的结果：$2, 0$
 
 分治法。
 

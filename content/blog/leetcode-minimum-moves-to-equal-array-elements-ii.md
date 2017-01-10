@@ -7,9 +7,6 @@ description = "Leetcode 413"
 slug = "leetcode-minimum-moves-to-equal-array-elements-ii"
 +++
 
-
-Leetcode 413
-
 ### 题目
 
 给定一个长度为n的非空整数数组，计算最少需要多少次移动可以使所有元素相等，一次移动是指将某一元素加1或减1。
@@ -20,7 +17,7 @@ You may assume the array's length is at most 10,000.
 
 __Example__:
 
-```
+```console
 Input:
 [1,2,3]
 

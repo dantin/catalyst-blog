@@ -7,9 +7,6 @@ description = "Leetcode 14"
 slug = "leetcode-longest-common-prefix"
 +++
 
-
-Leetcode 14
-
 ### 题目
 
 找字符串的最长前缀。

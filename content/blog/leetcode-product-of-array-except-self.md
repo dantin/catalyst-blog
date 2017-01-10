@@ -7,18 +7,15 @@ description = "Leetcode 238"
 slug = "leetcode-product-of-array-except-self"
 +++
 
-
-Leetcode 238
-
 ### 题目
 
 除自身外其他元素的积。
 
-Given an array of n integers where n > 1, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+Given an array of n integers where n > 1, nums, return an array output such that $output[i]$ is equal to the product of all the elements of nums except $nums[i]$.
 
 Solve it without division and in O(n).
 
-For example, given [1,2,3,4], return [24,12,8,6].
+For example, given $[1,2,3,4]$, return $[24,12,8,6]$.
 
 __Follow up__:
 
@@ -28,7 +25,7 @@ Could you solve it with constant space complexity? (Note: The output array does 
 
 分解问题：
 
-```
+```console
 output[i] =  {i前面的数的乘积}  X  {i后面的数的乘积}
 ```
 
@@ -42,7 +39,7 @@ output[i] =  {i前面的数的乘积}  X  {i后面的数的乘积}
 
 则
 
-```
+```console
 output[i] = output_before[i] * output_after[i]
 output = {24, 12, 8, 6}
 ```

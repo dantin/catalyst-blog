@@ -7,20 +7,17 @@ description = "Leetcode 421"
 slug = "leetcode-maximum-xor-of-two-numbers-in-an-array"
 +++
 
-
-Leetcode 421
-
 ### 题目
 
 求数组中两个数字异或的最大值。
 
 Given a __non-empty__ array of numbers, 
 
-{% math %}
+$$
 \begin{aligned}
-a_0, a_1, a_2, \dots, a_{n-1}
+a\_0, a\_1, a\_2, \dots, a\_{n-1}
 \end{aligned}
-{% endmath %}
+$$
 
 where $0 \le a_i < 2^{31}$.
 
@@ -30,7 +27,7 @@ Could you do this in O(n) runtime?
 
 __Example__:
 
-```
+```console
 Input: [3, 10, 5, 25, 2, 8]
 
 Output: 28
@@ -40,7 +37,7 @@ Explanation: The maximum result is 5 ^ 25 = 28.
 
 ### 分析
 
-利用XOR的性质，`a^b = c`，则有`a^c = b`，且`b^c = a`。
+利用XOR的性质，$a \oplus b = c$，则有$a \oplus c = b$，且$b \oplus c = a$。
 
 每次从高位开始，到某一位为止，所能获得的最大的数。设置变量mask用来表示能形成的值，每一次将mask和其他的num相与得到的值加入set，表示在当前这一位上，数组里有这么多prefix。
 

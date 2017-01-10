@@ -7,9 +7,6 @@ description = "Leetcode 112"
 slug = "leetcode-isomorphic-strings"
 +++
 
-
-Leetcode 112
-
 ### 题目
 
 搜索根节点到叶子节点是否存在权制为n的路径。

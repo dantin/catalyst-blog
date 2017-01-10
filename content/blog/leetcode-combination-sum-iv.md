@@ -7,9 +7,6 @@ description = "Leetcode 377"
 slug = "leetcode-combination-sum-iv"
 +++
 
-
-Leetcode 377
-
 ### 题目
 
 给定一个元素互不相同且均为正数的数组，有多少种办法可以用该数组中的数组合成target（可以重复使用）。

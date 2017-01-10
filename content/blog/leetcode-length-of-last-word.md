@@ -7,9 +7,6 @@ description = "Leetcode 58"
 slug = "leetcode-length-of-last-word"
 +++
 
-
-Leetcode 58
-
 ### 题目
 
 查找字符串中最后一个单词的长度。

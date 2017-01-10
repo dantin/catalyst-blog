@@ -7,9 +7,6 @@ description = "Leetcode 7"
 slug = "leetcode-reverse-integer"
 +++
 
-
-Leetcode 7
-
 ### 题目
 
 反转整数。

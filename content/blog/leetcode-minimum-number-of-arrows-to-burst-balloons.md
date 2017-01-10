@@ -7,9 +7,6 @@ description = "Leetcode 452"
 slug = "leetcode-minimum-number-of-arrows-to-burst-balloons"
 +++
 
-
-Leetcode 452
-
 ### 题目
 
 使用最少数量的箭引爆气球。
@@ -20,7 +17,7 @@ An arrow can be shot up exactly vertically from different points along the x-axi
 
 __Example__:
 
-```
+```console
 Input:
 [[10,16], [2,8], [1,6], [7,12]]
 

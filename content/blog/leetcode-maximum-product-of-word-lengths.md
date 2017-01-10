@@ -7,18 +7,15 @@ description = "Leetcode 318"
 slug = "leetcode-maximum-product-of-word-lengths"
 +++
 
-
-Leetcode 318
-
 ### 题目
 
 求两个没有相同字母的单词的长度之积的最大值。
 
-Given a string array words, find the maximum value of length(word[i]) * length(word[j]) where the two words do not share common letters. You may assume that each word will contain only lower case letters. If no such two words exist, return 0.
+Given a string array words, find the maximum value of $length(word[i]) * length(word[j])$ where the two words do not share common letters. You may assume that each word will contain only lower case letters. If no such two words exist, return 0.
 
 __Example 1__:
 
-```
+```console
 Given ["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]
 Return 16
 The two words can be "abcw", "xtfn".
@@ -26,7 +23,7 @@ The two words can be "abcw", "xtfn".
 
 __Example 2__:
 
-```
+```console
 Given ["a", "ab", "abc", "d", "cd", "bcd", "abcd"]
 Return 4
 The two words can be "ab", "cd".
@@ -34,7 +31,7 @@ The two words can be "ab", "cd".
 
 __Example 3__:
 
-```
+```console
 Given ["a", "aa", "aaa", "aaaa"]
 Return 0
 No such pair of words.

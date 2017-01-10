@@ -7,9 +7,6 @@ description = "Leetcode 419"
 slug = "leetcode-battleships-in-a-board"
 +++
 
-
-Leetcode 419
-
 ### 题目
 
 给定一个2维板，计算其中包含多少艘不同的战舰。战舰用字符'X'表示，空白槽位用'.'表示。你应该假设如下规则：
@@ -27,7 +24,7 @@ Given an 2D board, count how many different battleships are in it. The battleshi
 
 __Example__:
 
-```
+```console
 X..X
 ...X
 ...X
@@ -37,7 +34,7 @@ In the above board there are 2 battleships.
 
 __Invalid Example__:
 
-```
+```console
 ...X
 XXXX
 ...X

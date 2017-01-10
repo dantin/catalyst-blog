@@ -7,9 +7,6 @@ description = "Leetcode 463"
 slug = "leetcode-island-perimeter"
 +++
 
-
-Leetcode 463
-
 ### 题目
 
 给定一个二维地图，1表示陆地，0表示水域。单元格水平或者竖直相连（不含对角线）。地图完全被水域环绕，只包含一个岛屿。岛屿没有湖泊。单元格是边长为1的正方形。地图是矩形，长宽不超过100。计算岛屿的周长。
@@ -18,7 +15,7 @@ You are given a map in form of a two-dimensional integer grid where 1 represents
 
 __Example__:
 
-```
+```console
 [[0,1,0,0],
  [1,1,1,0],
  [0,1,0,0],

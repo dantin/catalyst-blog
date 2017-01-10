@@ -7,9 +7,6 @@ description = "Leetcode 475"
 slug = "leetcode-heaters"
 +++
 
-
-Leetcode 475
-
 ### 题目
 
 求加热器辐射热量的最小距离。
@@ -29,7 +26,7 @@ __Note__:
 
 __Example 1__:
 
-```
+```console
 Input: [1,2,3],[2]
 Output: 1
 Explanation: The only heater was placed in the position 2, and if we use the radius 1 standard, then all the houses can be warmed.
@@ -37,7 +34,7 @@ Explanation: The only heater was placed in the position 2, and if we use the rad
 
 __Example 2__:
 
-```
+```console
 Input: [1,2,3,4],[1,4]
 Output: 1
 Explanation: The two heater was placed in the position 1 and 4. We need to use radius 1 standard, then all the houses can be warmed.

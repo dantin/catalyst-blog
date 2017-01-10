@@ -7,9 +7,6 @@ description = "Leetcode 19"
 slug = "leetcode-remove-nth-node-from-end-of-list"
 +++
 
-
-Leetcode 19
-
 ### 题目
 
 移除链表中倒数第N个元素。
@@ -18,10 +15,10 @@ Given a linked list, remove the nth node from the end of list and return its hea
 
 For example,
 
-```
-   Given linked list: 1->2->3->4->5, and n = 2.
+```console
+Given linked list: 1->2->3->4->5, and n = 2.
 
-   After removing the second node from the end, the linked list becomes 1->2->3->5.
+After removing the second node from the end, the linked list becomes 1->2->3->5.
 ```
 
 __Note__:

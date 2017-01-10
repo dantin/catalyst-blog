@@ -7,16 +7,13 @@ description = "Leetcode 6"
 slug = "leetcode-zigzag-conversion"
 +++
 
-
-Leetcode 6
-
 ### 题目
 
 ZigZag变换。
 
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
-```
+```console
 P   A   H   N
 A P L S I I G
 Y   I   R
@@ -26,7 +23,7 @@ And then read line by line: "PAHNAPLSIIGYIR"
 
 Write the code that will take a string and make this conversion given a number of rows:
 
-```
+```console
 string convert(string text, int nRows);
 ```
 
@@ -38,7 +35,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
  n=2时，字符串坐标变成zigzag的走法就是：
 
-```
+```console
  0 2 4 6
 
  1 3 5 7
@@ -46,7 +43,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
  n=3时的走法是：
 
-```
+```console
  0     4     8
 
  1  3  5  7  9
@@ -55,7 +52,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 ```
  n=4时的走法是：
 
-```
+```console
  0      6        12
 
  1   5  7    11  13

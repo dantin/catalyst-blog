@@ -7,9 +7,6 @@ description = "Leetcode 225"
 slug = "leetcode-implement-stack-using-queues"
 +++
 
-
-Leetcode 225
-
 ### 题目
 
 用队列模拟堆栈。
