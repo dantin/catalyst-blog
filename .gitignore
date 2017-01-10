@@ -5,6 +5,7 @@ db.json
 node_modules/
 /public/
 /themes/
+!/themes/.gitkeep
 .deploy*/
 
 *.tar.gz
