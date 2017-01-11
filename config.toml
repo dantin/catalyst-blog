@@ -9,8 +9,9 @@ pygmentscodefences = "true"
 [permalinks]
     blog = "/:section/:slug"
 
-[parames]
+[params]
     description = "这世界是美好的，值得我们为之奋斗。我只相信后半句。"
+    trackingId = "UA-88937074-1"
 
 [taxonomies]
     tag = "tags"
