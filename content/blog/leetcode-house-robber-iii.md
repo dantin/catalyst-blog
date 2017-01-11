@@ -9,7 +9,7 @@ slug = "leetcode-house-robber-iii"
 
 ### 题目
 
-升级2.0版的[House Robber](/2016/11/04/leetcode-house-robber/)，沿着二叉树开始偷，求最大可能的抢劫数量，不能相邻取。
+升级2.0版的[House Robber](/blog/leetcode-house-robber/)，沿着二叉树开始偷，求最大可能的抢劫数量，不能相邻取。
 
 The thief has found himself a new place for his thievery again. There is only one entrance to this area, called the "root." Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that "all houses in this place forms a binary tree". It will automatically contact the police if two directly-linked houses were broken into on the same night.
 

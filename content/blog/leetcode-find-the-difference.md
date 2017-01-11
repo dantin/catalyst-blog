@@ -33,7 +33,7 @@ Explanation:
 
 ### 分析
 
-同[Leetcode 136](/2016/10/19/leetcode-single-number/)
+同[Leetcode 136](/blog/leetcode-single-number/)
 
 ### 解法
 

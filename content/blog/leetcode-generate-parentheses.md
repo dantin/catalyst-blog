@@ -27,7 +27,7 @@ For example, given $n = 3$, a solution set is:
 
 ### 分析
 
-可以使用[卡特兰数](/2016/12/30/math-catalan-number/)的性质。
+可以使用[卡特兰数](/blog/math-catalan-number/)的性质。
 
 递归思想。
 

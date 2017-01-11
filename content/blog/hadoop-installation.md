@@ -23,7 +23,7 @@ Hadoop允许使用多种模式运行：
 
 在Mac OS X中，使用“系统偏好设置”的“共享”，“远程登录”勾选开启。
 
-当然也可以直接通过命令行[开启远程登录](/2016/02/22/mac-os-memo/)。
+当然也可以直接通过命令行[开启远程登录](/blog/system-macos-admin/)。
 
 ```bash
 sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
