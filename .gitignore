@@ -3,7 +3,9 @@ Thumbs.db
 db.json
 *.log
 node_modules/
-public/
+/public/
+themes/
+!themes/.gitkeep
 .deploy*/
 
 *.tar.gz
