@@ -2,7 +2,7 @@
 import os
 import re
 
-target_dir = '/Users/david/Documents/code/cosmos/catalyst2/content/blog'
+target_dir = '/Users/david/Documents/temp/catalyst-posts'
 tag_line = '---\n'
 if __name__ == "__main__":
     files = os.listdir(target_dir)
@@ -10,8 +10,7 @@ if __name__ == "__main__":
         fname = target_dir + '/' + files[i]
         if '.md' not in files[i]:
             continue
-        if files[i] in ['leetcode-zigzag-conversion.md', 'leetcode-4sum-ii.md', 'leetcode-word-pattern.md', 'leetcode-valid-sudoku.md',
-                        'leetcode-longest-repeating-character-replacement.md', 'leetcode-decode-string.md']:
+        if files[i] in ['_spark-quick-start.md']:
             continue
         # print fname
         lines = []
@@ -36,24 +35,41 @@ if __name__ == "__main__":
 
         if not is_target:
             continue
+        # print files[i]
         d = dict(s.strip().split(': ') for s in header)
-        if '[' in d['categories']:
-            print fname
-            continue
+        tag = ''
         if '[' in d['tags']:
-            print fname
-            continue
+            t = d['tags'][1:-1]
+            tag = ', '.join('"{0}"'.format(s.strip()) for s in t.split(','))
+        else:
+            tag = '"{0}"'.format(d['tags'])
 
         cat = ''
         if d['categories'] == '练习':
             cat = 'Code'
-        # write file content
+        elif d['categories'] == '学术':
+            cat = 'Scholar'
+        elif d['categories'] == '工程':
+            cat = 'Engineering'
+        elif d['categories'] == '生活':
+            cat = 'Life'
+        else:
+            cat = 'Misc'
+
+        # print 'date = "%s"' % (d['date'].replace(' ', 'T') + '+08:00')
+        # print 'title = "%s"' % d['title']
+        # print 'categories = ["%s"]' % cat
+        # print 'tags = [%s]' % tag
+        # print 'description = "%s"' % desc.strip()
+        # print 'slug = "%s"' % files[i].split('.')[0]
+
+        # # write file content
         with open(fname, 'w') as fp:
             fp.write('+++\n')
             fp.write('date = "%s"\n' % (d['date'].replace(' ', 'T') + '+08:00'))
             fp.write('title = "%s"\n' % d['title'])
             fp.write('categories = ["%s"]\n' % cat)
-            fp.write('tags = ["%s"]\n' % d['tags'])
+            fp.write('tags = ["%s"]\n' % tag)
             fp.write('description = "%s"\n' % desc.strip())
             fp.write('slug = "%s"\n' % files[i].split('.')[0])
             fp.write('+++\n\n')
