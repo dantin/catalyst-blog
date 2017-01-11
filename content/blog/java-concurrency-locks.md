@@ -2,7 +2,7 @@
 date = "2016-06-28T17:26:42+08:00"
 title = "Java中的锁"
 categories = ["Engineering"]
-tags = ["Java"]
+tags = ["Java", "Concurrency"]
 description = "本文介绍Java中的并发锁"
 slug = "java-concurrency-locks"
 +++

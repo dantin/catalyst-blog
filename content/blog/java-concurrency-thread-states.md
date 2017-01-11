@@ -2,7 +2,7 @@
 date = "2016-06-28T13:56:30+08:00"
 title = "Java线程的状态及切换"
 categories = ["Engineering"]
-tags = ["Java"]
+tags = ["Java", "Concurrency"]
 description = "本文介绍Java中线程的状态"
 slug = "java-concurrency-thread-states"
 +++
