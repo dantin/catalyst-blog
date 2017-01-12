@@ -1,0 +1,21 @@
+baseurl = "http://example.org/"
+languageCode = "zh-CN"
+title = "Catalyst"
+theme = "catalyst-hugo"
+# code
+pygmentsstyle = "monokai"
+pygmentscodefences = "true"
+
+[permalinks]
+    blog = "/:section/:slug"
+
+[params]
+    description = "这世界是美好的，值得我们为之奋斗。我只相信后半句。"
+    trackingId = "UA-88937074-1"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    2017 = "2017"
+    2016 = "2016"
+    2015 = "2015"
