@@ -10,6 +10,9 @@ cd `dirname $0`
 cd ..
 cd $BUNDLE_NAME
 ROOT_DIR=`pwd`
+cd $ROOT_DIR/themes/${BUNDLE_NAME}-hugo
+git pull
+cd $ROOT_DIR
 git pull
 rm -rf public
 #hexo generate
