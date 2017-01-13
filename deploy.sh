@@ -10,8 +10,10 @@ cd `dirname $0`
 cd ..
 cd $BUNDLE_NAME
 ROOT_DIR=`pwd`
+# update theme
 cd $ROOT_DIR/themes/${BUNDLE_NAME}-hugo
 git pull
+# update content
 cd $ROOT_DIR
 git pull
 rm -rf public
