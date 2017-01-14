@@ -54,3 +54,47 @@ public class Solution {
     }
 }
 ```
+
+```python
+class Solution(object):
+    def hammingDistance(self, x, y):
+        """
+        :type x: int
+        :type y: int
+        :rtype: int
+        """
+        d = 0
+        xor = x ^ y
+        while xor != 0:
+            d += xor & 1;
+            xor /= 2;
+
+        return d
+```
+
+或使用python原生工具
+
+```python
+class Solution(object):
+    def hammingDistance(self, x, y):
+        """
+        :type x: int
+        :type y: int
+        :rtype: int
+        """
+        return bin(x^y).count('1')
+```
+
+Gonlang的做法：
+
+```go
+func hammingDistance(x int, y int) int {
+    var d int
+    xor := x ^ y
+    for xor != 0 {
+        d += xor & 1
+        xor /= 2
+    }
+    return d
+}
+```
