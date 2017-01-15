@@ -40,6 +40,8 @@ The above arrows point to positions where the corresponding bits are different.
 
 ### 解法
 
+#### Java
+
 ```java
 public class Solution {
     public int hammingDistance(int x, int y) {
@@ -54,6 +56,8 @@ public class Solution {
     }
 }
 ```
+
+#### Python
 
 ```python
 class Solution(object):
@@ -85,7 +89,7 @@ class Solution(object):
         return bin(x^y).count('1')
 ```
 
-Gonlang的做法：
+#### Golang
 
 ```go
 func hammingDistance(x int, y int) int {
