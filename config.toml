@@ -1,10 +1,14 @@
-baseurl = "http://example.org/"
+BaseUrl = "http://dding.info/"
 languageCode = "zh-CN"
 title = "Catalyst"
 theme = "catalyst-hugo"
 # code
 pygmentsstyle = "monokai"
 pygmentscodefences = "true"
+copyright = "This work is licensed under MIT License."
+
+[author]
+    name = "David Ding"
 
 [permalinks]
     blog = "/:section/:slug"
@@ -19,3 +23,8 @@ pygmentscodefences = "true"
     2017 = "2017"
     2016 = "2016"
     2015 = "2015"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
