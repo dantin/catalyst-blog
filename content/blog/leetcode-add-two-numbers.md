@@ -40,29 +40,24 @@ public class Solution {
         int remaining = 0;
 
         while (l1 != null || l2 != null || remaining != 0) {
-            int sum = 0;
-            
             if (l1 != null) {
-                sum += l1.val;
+                remaining += l1.val;
                 l1 = l1.next;
             }
             if (l2 != null) {
-                sum += l2.val;
+                remaining += l2.val;
                 l2 = l2.next;
             }
-            if (remaining != 0) {
-                sum += remaining;
-            }
 
-            ListNode n = new ListNode(sum % 10);
-            if (tail == null) {
+            ListNode n = new ListNode(remaining % 10);
+            remaining /= 10;
+            if (head == null) {
                 head = n;
                 tail = n;
             } else {
                 tail.next = n;
-                tail = tail.next;
+                tail = n;
             }
-            remaining = sum / 10;
         }
 
         return head;
