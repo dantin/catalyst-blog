@@ -83,3 +83,24 @@ public class Solution {
     }
 }
 ```
+
+因为只涉及英文字符，因此直接用`int`数组。
+
+```java
+public class Solution {
+    public boolean canConstruct(String ransomNote, String magazine) {
+        int[] cache = new int[255];
+        for (char c : magazine.toCharArray()) {
+            cache[c]++;
+        }
+        for (char c : ransomNote.toCharArray()) {
+            if (cache[c] > 0) {
+                cache[c]--;
+            } else {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
