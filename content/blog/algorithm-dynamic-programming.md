@@ -82,22 +82,24 @@ b[i] = max{b[j]}+1, When A[i] > A[j] && 0 <= j < i.
 实现
 
 ```java
-publi int LIS(int[] A) {
-    if(A == null || A.length == 0)
+publi int LIS(int[] nums) {
+    if (nums == null || nums.length == 0)
         return 0;
-    int[] b = new int[A.length];
-    b[0] = 1;
-    int result = 1;
-    for(int i=1; i<A.length; i++) {
-        int max = -1;
-        for(int j=0; j<i; j++) {
-            if(A[j] < A[i] && b[j] > max)
-                max = b[j];
+    int[] dp = new int[nums.length];
+    dp[0] = 1;
+    int ans = 1;
+    for (int i = 1; i < nums.length; i++) {
+        int max = 0;
+        for (int j = 0; j < i; j++) {
+            if (nums[j] < nums[i] && dp[j] > max) {
+                max = dp[j];
+            }
         }
-        b[i] = max + 1;
-        result = Math.max(result, b[i]);
+        dp[i] = max + 1;
+        ans = Math.max(dp[i], ans);
     }
-    return result;
+
+    return ans;
 }
 ```
 

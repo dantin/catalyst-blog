@@ -31,8 +31,6 @@ public class Solution {
         int slow = 0;
         int maxLength = 0;
         int[] hashTable = new int[256];
-        // can't use the variable declared in the enhanced for loop to modify the underlying array.
-        // http://stackoverflow.com/questions/6044640/java-foreach-loop-not-working-as-expected-on-int-array
         for (int i = 0; i < hashTable.length; i++) {
             hashTable[i] = -1;
         }
@@ -44,10 +42,9 @@ public class Solution {
                     hashTable[(int)s.charAt(slow)] = -1;
                     slow++;
                 }
+
             }
-            if (fast - slow + 1 > maxLength) {
-                maxLength = fast - slow + 1;
-            }
+            maxLength = Math.max(fast - slow + 1, maxLength);
             hashTable[ord] = fast;
         }
         return maxLength;
