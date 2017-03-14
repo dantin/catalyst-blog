@@ -44,6 +44,20 @@ Swap:             2           0           2
 
 相对而言`free`命令更直观，但`/proc/meminfo`更详细。
 
+#### 修改主机名
+
+查看主机名
+
+```console
+sysctl kernel.hostname
+```
+
+修改主机名
+
+```console
+sysctl kernel.hostname=<hostname>
+```
+
 ### 用户权限相关
 
 #### 将用户加入sudoer组
