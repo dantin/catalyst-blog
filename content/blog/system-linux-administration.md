@@ -31,6 +31,19 @@ sudo file /lib/systemd/systemd
 
 x86-64字样的是64 bit，i686字样的是32位
 
+#### 查看内存大小
+
+```console
+cat /proc/meminfo
+free -m # 单位M
+free -g # 单位G
+              total        used        free      shared  buff/cache   available
+Mem:              7           0           5           0           1           6
+Swap:             2           0           2
+```
+
+相对而言`free`命令更直观，但`/proc/meminfo`更详细。
+
 ### 用户权限相关
 
 #### 将用户加入sudoer组
