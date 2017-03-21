@@ -67,8 +67,3 @@ slug = "life-books-of-2016"
 ### 十二月
 
 * [软技能：代码之外的生存指南](https://book.douban.com/subject/26835090/)
-
-Java并发编程实战，
-Getting Started with Google Guava, Bill Bejeck
-Spring in Action，Craig Walls
-Hadoop in Action，Chuck Lam
