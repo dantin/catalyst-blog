@@ -18,11 +18,12 @@ slug = "life-books-of-2017"
 * [断点：互联网进化启示录](https://book.douban.com/subject/4250782/)，杰夫·斯蒂贝尔，中国人民大学出版社有限公司
 * [向死而生：我修的死亡学分](https://book.douban.com/subject/4704811/)，李开复，中信出版社
 * [文明之光（第一册）](https://book.douban.com/subject/25902942/)，吴军，人民邮电出版社
+* [分布式服务框架：原理与实践](https://book.douban.com/subject/26702824/)，李林峰，电子工业出版社
 
 ### 三月
 
 * [淘宝技术这十年：淘宝技术大学校长解密淘宝十年](https://book.douban.com/subject/24335672/)，子柳，电子工业出版社
-    
+
 
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
