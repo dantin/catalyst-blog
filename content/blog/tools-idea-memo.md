@@ -11,7 +11,6 @@ slug = "idea-memo"
 
 ```console
 Ctrl + J，显示JavaDoc
-Ctrl + H，类的层次结构
 CMD + F，查找
 CMD + F12，查看类中全部方法和属性
 Ctrl + Alt + H，查看方法调用链
