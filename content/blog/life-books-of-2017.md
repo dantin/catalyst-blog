@@ -23,7 +23,7 @@ slug = "life-books-of-2017"
 ### 三月
 
 * [淘宝技术这十年：淘宝技术大学校长解密淘宝十年](https://book.douban.com/subject/24335672/)，子柳，电子工业出版社
-
+* [Apache Kafka](https://book.douban.com/subject/25789430/)，Nishant Garg，Packt Publishing
 
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
