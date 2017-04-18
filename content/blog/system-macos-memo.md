@@ -93,3 +93,10 @@ shift+command+y 便签
 ```console
 “Preferences” --> “Security” --> “Internet plug-ins”，勾选“Adobe Flash Player”后重启。
 ```
+
+### iTerm2
+
+```console
+CMD + D 竖分屏
+CMD + Shift + D 横分屏
+```
