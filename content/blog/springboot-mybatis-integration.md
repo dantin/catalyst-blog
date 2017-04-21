@@ -2,7 +2,7 @@
 date = "2017-04-18T15:06:26+08:00"
 title = "SpringBoot和MyBatis的整合办法"
 categories = ["Engineering"]
-tags = ["SpringBoot", "MyBatis"]
+tags = ["SpringBoot", "MyBatis", "MySQL"]
 description = "本文记录SpringBoot和MyBatis的整合办法"
 slug = "springboot-mybatis-integration"
 +++
