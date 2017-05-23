@@ -22,6 +22,7 @@ slug = "design-pattern-factory"
 <img src="/images/design-pattern-factory.jpeg" alt="工厂方法模式" style="width: 500px;"/>
 
 在工厂方法模式结构图中包含如下几个角色：
+
 * Product（抽象产品）：它是定义产品的接口，是工厂方法模式所创建对象的超类型，也就是产品对象的公共父类。
 * ConcreteProduct（具体产品）：它实现了抽象产品接口，某种类型的具体产品由专门的具体工厂创建，具体工厂和具体产品之间一一对应。
 * Factory（抽象工厂）：在抽象工厂类中，声明了工厂方法(Factory Method)，用于返回一个产品。抽象工厂是工厂方法模式的核心，所有创建对象的工厂类都必须实现该接口。
