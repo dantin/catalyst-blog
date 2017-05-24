@@ -35,6 +35,8 @@ Note:
 
 ### 解法
 
+__java__
+
 ```java
 public class Solution {
     public int arrayPairSum(int[] nums) {
@@ -52,3 +54,18 @@ public class Solution {
 }
 ```
 
+__golang__
+
+```go
+func arrayPairSum(nums []int) int {
+    sort.Ints(nums)
+    sum := 0
+    for i := 0; i < len(nums); i++ {
+        if i % 2 == 0 {
+            sum += nums[i]
+        }
+    }
+
+    return sum
+}
+```
