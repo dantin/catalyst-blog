@@ -28,6 +28,18 @@ slug = "life-books-of-2017"
 ### 四月
 
 * [文明之光（第二册）](https://book.douban.com/subject/25902222/)，吴军，人民邮电出版社
+* [人类简史](https://book.douban.com/subject/25985021/)，尤瓦尔·赫拉利，中信出版社
+
+### 五月
+
+* [以色列：一个国家的诞生](https://book.douban.com/subject/26786719/)，知乎一小时
+* [以色列 2：在危机中生存](https://book.douban.com/subject/26852322/)，知乎一小时
+* [上瘾五百年](https://book.douban.com/subject/25908552/)，戴维·考特莱特，中信出版社
+* [历史上最伟大的思想](https://book.douban.com/subject/4138995/)，威尔·杜兰特，中信出版社
+
+### 六月
+
+* [Java 8函数式编程](https://book.douban.com/subject/26346017/)，Richard Warburton，人民邮电出版社
 
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
