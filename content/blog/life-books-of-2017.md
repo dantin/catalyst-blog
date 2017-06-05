@@ -40,6 +40,7 @@ slug = "life-books-of-2017"
 ### 六月
 
 * [Java 8函数式编程](https://book.douban.com/subject/26346017/)，Richard Warburton，人民邮电出版社
+* [罗马人的故事1：罗马不是一天建成的](https://book.douban.com/subject/7055441/)，盐野七生，中信出版社
 
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
