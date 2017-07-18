@@ -33,10 +33,20 @@ $$
 
 ### 解法
 
+Java
+
 ```java
 public class Solution {
     public boolean canWinNim(int n) {
         return n % 4 != 0;
     }
+}
+```
+
+Go
+
+```go
+func canWinNim(n int) bool {
+    return n%4 != 0
 }
 ```
