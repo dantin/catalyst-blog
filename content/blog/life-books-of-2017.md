@@ -43,6 +43,10 @@ slug = "life-books-of-2017"
 * [罗马人的故事1：罗马不是一天建成的](https://book.douban.com/subject/7055441/)，盐野七生，中信出版社
 * [Go语言编程](https://book.douban.com/subject/11577300/)，许式伟，人民邮电出版社
 
+### 七月
+
+* [Go语言实战](https://book.douban.com/subject/27015617/)，William Kennedy/Brian Ketelsen/Erik St.Martin/李兆海 译，人民邮电出版社
+
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
 Spring in Action，Craig Walls
