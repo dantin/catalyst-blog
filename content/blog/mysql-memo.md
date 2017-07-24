@@ -37,6 +37,7 @@ CREATE USER '<user_name>'@'%' IDENTIFIED BY '<password>';
 DROP USER '<user_name>'@'%';
 
 # 修改权限
+# GRANT <privileges> ON <what> TO <user> [IDENTIFIED BY "<password>"] [WITH GRANT OPTION];
 GRANT SELECT,INSERT,UPDATE,DELETE ON <db_name>.* to '<user_name>'@'%' WITH GRANT OPTION;
 
 # 修改密码
@@ -44,6 +45,9 @@ SET PASSWORD FOR '<user_name>'@'localhost' = PASSWORD('<password>');
 
 # 更新权限
 FLUSH PRIVILEGES;
+
+# 查看用户权限
+SHOW GRANTS FOR 'root'@'%';
 ```
 
 ### 查看相关
