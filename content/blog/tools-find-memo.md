@@ -13,6 +13,8 @@ slug = "tools-find-memo"
 find . -name '*.py' -print0 | xargs -0 grep 'something'
 # or
 find . -name '*.py' -exec grep 'something' {} \;
+# ignore directory
+find . -name "*.go" -not -path "./_vendor/*" -print0 | xargs -0 grep 'keyword'
 ```
 
 ### 删除目录中除某些子目录外的内容

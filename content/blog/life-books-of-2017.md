@@ -46,6 +46,12 @@ slug = "life-books-of-2017"
 ### 七月
 
 * [Go语言实战](https://book.douban.com/subject/27015617/)，William Kennedy/Brian Ketelsen/Erik St.Martin/李兆海 译，人民邮电出版社
+* [A Tour of Go](https://tour.golang.org/welcome/1)，golang.org
+
+### 八月
+
+* [The Part-Time Parliament](http://lamport.azurewebsites.net/pubs/lamport-paxos.pdf)，Leslie Lamport
+
 
 Java并发编程实战，
 Getting Started with Google Guava, Bill Bejeck
