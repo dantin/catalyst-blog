@@ -145,6 +145,42 @@ pip install distribute
 
 至此，新版 Python 即算安装完毕了。
 
+
+### 更新镜像源
+
+Linux下运行命令
+
+```console
+vim ~/.pip/pip.conf
+```
+
+然后写入如下内容并保存
+
+```console
+[global]
+trusted-host =  mirrors.aliyun.com
+index-url = http://mirrors.aliyun.com/pypi/simple
+```
+
+### 常见错误
+
+`pip`安装包出现错误。
+
+如下：
+
+```console 
+...
+pgmodule.c:43:20: error: Python.h: No such file or directory
+```
+
+解决办法
+
+```console
+# CentOS 使用下面命令
+# yum install python-devel
+
+```
+
 参考：
 
 * [秋水逸冰的博客](https://teddysun.com/473.html)
