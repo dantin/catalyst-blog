@@ -25,6 +25,9 @@ CREATE DATABASE <db_name>;
 
 # 删除DB
 DROP DATABASE <db_name>;
+
+# 重命名表名
+RENAME TABLE tbl_name TO new_tbl_name;
 ```
 
 ### 用户相关
