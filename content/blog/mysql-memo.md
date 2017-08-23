@@ -79,4 +79,11 @@ load data local infile '/directory/file.csv'
 into table fdd_esf_push.temp_device_info
 fields terminated by ','  enclosed by '"'
 lines terminated by '\r\n';
+
+# 导出
+$ mysqldump -h host_name -u username -p database > file.sql
+# 导入
+create database aaa;
+use aaa;
+source ./file.sql
 ```
