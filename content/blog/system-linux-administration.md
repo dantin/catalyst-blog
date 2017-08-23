@@ -137,6 +137,28 @@ Inter-|   Receive                                                |  Transmit
 venet0: 221917054  187467    0    0    0     0          0         0 32630222  128074    0    0    0     0       0          0
 ```
 
+#### 硬盘吞吐检测
+
+```console
+dd bs=4k count=256000 if=/dev/zero of=test oflag=direct
+256000+0 records in
+256000+0 records out
+1048576000 bytes (1.0 GB) copied, 372.013 s, 2.8 MB/s
+```
+
+```console
+# 连续写
+fio -ioengine=libaio -bs=4k -direct=1 -thread -rw=write  -size=10G -filename=test -name="WriteTest" -iodepth=4 -runtime=60
+# 连续读
+fio -ioengine=libaio -bs=4k -direct=1 -thread -rw=read  -size=10G -filename=test -name="ReadTest" -iodepth=4 -runtime=60
+# 随机读
+fio -ioengine=libaio -bs=4k -direct=1 -thread -rw=randread  -size=10G -filename=test -name="RandomTest" -iodepth=4 -runtime=60
+# 直接写
+dd bs=4k count=2560000 if=/dev/zero of=test oflag=direct
+# Buffer写
+dd bs=4k count=2560000 if=/dev/zero of=test
+```
+
 ### 应用相关
 
 #### 安装包
